@@ -1,0 +1,45 @@
+# Infantry
+AFA_INF_01 = {
+	name = "Ayakki Taaski Apokti"
+
+	for_countries = { SEM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Ayakki Taaski Apokti"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Lhamin Ayakki Taaski Apokti" }
+		2 = { "Toklan Ayakki Taaski Apokti" }
+		3 = { "Toccinan Ayakki Taaski Apokti" }
+		4 = { "Ostakan Ayakki Taaski Apokti" }
+		5 = { "Cahappakan Ayakki Taaski Apokti" }
+		6 = { "Fockan Ayakki Taaski Apokti" }
+		7 = { "Kolapákan Ayakki Taaski Apokti" }
+		8 = { "Tocnapákan Ayakki Taaski Apokti" }
+		9 = { "Ostapákan Ayakki Taaski Apokti" }
+		10 = { "Póklon Ayakki Taaski Apokti" }
+	}
+}
+
+AFA_CAV_01 = {
+	name = "Kawayi Apokti"
+
+	for_countries = { SEM }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d Kawayi Apokti"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+	}
+}
+
