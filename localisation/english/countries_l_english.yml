@@ -5327,5 +5327,10 @@
  BLC_DEF: "Balochistan"
  BLC_ADJ: "Baloch"
 
-
+SEM_fascism: "Red Yat simanóli"
+SEM_fascism_DEF: "Red Yat simanóli"
+SEM_fascism_ADJ: "Yat simanóli"
+SEM: "Yat simanóli"
+SEM_DEF: "Yat simanóli"
+SEM_ADJ: "Yat simanóli"
 
