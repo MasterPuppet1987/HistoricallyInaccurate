@@ -1117,3 +1117,8 @@ SEM = {
 	color_ui = rgb { 210 61 67 }	
 }
 
+LIA = {
+    color = rgb { 173 56 56 }
+	color_ui = rgb { 173 56 56 }	
+}
+

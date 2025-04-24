@@ -1,0 +1,69 @@
+ideas = {
+
+	country = {
+
+		LIA_lost_taiwan = {
+
+			picture = cze_german_puppet
+			
+			allowed = {
+				original_tag = LIA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.025
+			}
+		}
+
+		LIA_the_foundations_of_defense = {
+
+			picture = hol_the_foundations_of_defense
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			equipment_bonus = {
+				ship_hull_light = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_cruiser = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+
+		LIA_anhui_pandemic = {
+
+			picture = cze_german_puppet
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				training_time_factor = +0.025
+				weekly_manpower = -400
+				stability_factor = -0.10
+			}
+		}
+	}
+}
