@@ -1122,8 +1122,13 @@ LIA = {
 	color_ui = rgb { 173 56 56 }	
 }
 
-LIA = {
+PLC = {
     color = rgb { 170 91 72 }
 	color_ui = rgb { 170 91 72 }	
+}
+
+SFT = {
+    color = rgb { 48 40 40 }
+	color_ui = rgb { 48 40 40 }	
 }
 
