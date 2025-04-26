@@ -84,7 +84,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 56 56 110 }
+		color = { 160 101 160 }
 
 
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -146,7 +146,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 0 0 255 }
+		color = { 0 0 200 }
 
 		rules = {
 			can_create_collaboration_government = no
@@ -384,7 +384,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 50 50 210 }
+		color = { 29 90 210 }
 
 		rules = {
 			can_create_collaboration_government = no
