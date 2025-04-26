@@ -217,7 +217,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 
-		color = { 255 0 0 }
+		color = { 150 0 0 }
 
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -251,14 +251,14 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10
 	}
 
-	syndicalism = {
+	libsoc = {
 
 		types = {
 
-			national_syndicalism = {
+			syndicalism = {
 			}
 
-			green_syndicalism = {
+			council_communism = {
 			}
 		}
 
@@ -363,11 +363,15 @@ ideologies = {
 	}
 
 
-	socialdemocracy = {
+	theocracy = {
 
 		types = {
 
-			socialdemocracy = {
+			catholic_theocracy = {
+			}
+
+			islamic_theocracy = {
+				
 			}
 		}
 
@@ -423,7 +427,7 @@ ideologies = {
 	}
 
 
-	neutrality = {
+	authoritarianism = {
 
 		types = {
 
@@ -431,10 +435,6 @@ ideologies = {
 			}
 
 			oligarchism  = {
-			}
-
-			anarchism = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 
 			moderatism = {

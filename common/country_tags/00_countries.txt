@@ -343,3 +343,6 @@ BLC = "countries/Balochistan.txt"
 
 # HI
 SEM = "countries/Seminole.txt"
+LIA = "countries/Liangjiang.txt"
+PLC = "countries/PolishLithuanianCommonwealth.txt"
+SFT = "countries/SaharanFreeTerritory.txt"

@@ -1122,3 +1122,8 @@ LIA = {
 	color_ui = rgb { 173 56 56 }	
 }
 
+LIA = {
+    color = rgb { 170 91 72 }
+	color_ui = rgb { 170 91 72 }	
+}
+
