@@ -1132,3 +1132,12 @@ SFT = {
 	color_ui = rgb { 48 40 40 }	
 }
 
+CEL = {
+    color = rgb { 0 91 34 }
+	color_ui = rgb { 0 91 34 }	
+}
+
+CLA = {
+    color = rgb { 0 102 39 }
+	color_ui = rgb { 0 102 39 }	
+}

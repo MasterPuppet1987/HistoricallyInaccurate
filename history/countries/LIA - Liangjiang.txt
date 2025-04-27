@@ -19,7 +19,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = syndicalism
+	ruling_party = libsoc
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -41,16 +41,6 @@ create_country_leader = {
 	desc = ""
 	picture = portrait_wu_zhihui.dds
 	ideology = syndicalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Wu Zhihui"
-	desc = ""
-	picture = portrait_wu_zhihui.dds
-	ideology = anarcho_capitalism
 	traits = {
 		#
 	}
