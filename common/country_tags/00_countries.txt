@@ -306,17 +306,6 @@ RAR = "countries/Reichskommisariat Arabien.txt"
 ROA = "countries/Reichskommisariat Ostasien.txt"
 RAA = "countries/Reichskommisariat Australasien.txt"
 
-# AMERINDIAN NATIONS (no starting cores)
-GAR = "countries/Guarani.txt"
-INC = "countries/Inca.txt"
-MIS = "countries/Miskito.txt"
-MAY = "countries/Maya.txt"
-INU = "countries/Inuit.txt"
-CHR = "countries/Charrua.txt"
-ITZ = "countries/Itza.txt"
-NAH = "countries/Nahua.txt"
-IAS = "countries/Isthmo Amerindia.txt"
-
 # GoE 
 DIP = "countries/Partisans.txt"
 PSH = "countries/Pashtunistan.txt"
@@ -341,10 +330,38 @@ IMO = "countries/Omani Imamate.txt"
 BLC = "countries/Balochistan.txt"
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")
 
-# HI
-SEM = "countries/Seminole.txt"
+### HI
+
+# CHINA WARLORDS
+
+ZHI = "countries/Zhili.txt"
 LIA = "countries/Liangjiang.txt"
-PLC = "countries/PolishLithuanianCommonwealth.txt"
+HNN = "countries/Hunan.txt"
+SIC = "countries/Sichuan.txt"
+XIK = "countries/Xikang.txt"
+SHA = "countries/Shandong.txt"
+CHH = "countries/Chahar.txt"
+
+# EUROPA
+
 CEL = "countries/Celtica.txt"
+GIR = "countries/IberianRealm.txt"
+
+# AMERICAS
+
+INU = "countries/Inuit.txt"
 CLA = "countries/CelticAmerica.txt"
+IRO = "countries/Iroquese.txt"
+NCO = "countries/NorthernConfederation.txt"
+SEM = "countries/Seminole.txt"
+FRD = "countries/FreeDalia.txt"
+WCO = "countries/WolfCommonwealth.txt"
+LEW = "countries/Leeway.txt"
+CEM = "countries/Cemanahuas.txt"
+SUN = "countries/SunsetState.txt"
+ADE = "countries/Adetes.txt"
+CAS = "countries/Cascadocia.txt"
 AZT = "countries/Aztec.txt"
+MAY = "countries/Maya.txt"
+INC = "countries/Inca.txt"
+GAR = "countries/Guarani.txt"

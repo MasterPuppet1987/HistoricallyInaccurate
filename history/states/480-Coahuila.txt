@@ -12,9 +12,8 @@ state = {
 
 	history = {
 
-		owner = AZT
-		add_core_of = AZT
-		add_core_of = RIG
+		owner = CEM
+		add_core_of = CEM
 
 		buildings = {
 			infrastructure = 2

@@ -142,8 +142,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
+	color = rgb { 0 0 148 }
+	color_ui = rgb { 0 0 148 }
 }
 CHL = {
 	color = rgb { 155 101 107 }
@@ -1112,19 +1112,63 @@ KUR = {
 	color_ui = rgb { 255 153 0 }	
 }
 
-SEM = {
-    color = rgb { 210 61 67 }
-	color_ui = rgb { 210 61 67 }	
-}
+# HI
 
 LIA = {
     color = rgb { 173 56 56 }
 	color_ui = rgb { 173 56 56 }	
 }
 
-PLC = {
-    color = rgb { 170 91 72 }
-	color_ui = rgb { 170 91 72 }	
+ZHI = {
+	color = rgb { 100 120 20 }
+	color_ui = rgb { 100 120 20 }
+}
+
+CHH = {
+	color = rgb { 0 102 179 }
+	color_ui = rgb { 0 102 179 }
+}
+
+ZHI = {
+	color = rgb { 100 120 20 }
+	color_ui = rgb { 100 120 20 }
+}
+
+HNN = {
+	color = rgb { 142  122  19 }
+	color_ui = rgb { 142  122  19 }
+}
+
+XIK = {
+	color = rgb { 77 175 74 }
+	color_ui = rgb { 77 175 74 }
+}
+
+SIC = {
+	color = rgb { 53 151 143 }
+	color_ui = rgb { 53 151 143 }
+}
+
+SHA = {
+	color = rgb { 194 165 207 }
+	color_ui = rgb { 194 165 207 }
+}
+
+
+CEL = {
+    color = rgb { 0 91 34 }
+	color_ui = rgb { 0 91 34 }
+}
+
+GIR = {
+    color = rgb { 90 80 39 }
+	color_ui = rgb { 0 91 34 }
+}
+
+
+SEM = {
+    color = rgb { 210 61 67 }
+	color_ui = rgb { 210 61 67 }	
 }
 
 SFT = {
@@ -1132,12 +1176,57 @@ SFT = {
 	color_ui = rgb { 48 40 40 }	
 }
 
-CEL = {
+CLA = {
     color = rgb { 0 91 34 }
-	color_ui = rgb { 0 91 34 }	
+	color_ui = rgb { 0 91 34 }
 }
 
-CLA = {
-    color = rgb { 0 102 39 }
-	color_ui = rgb { 0 102 39 }	
+IRO = {
+	color = rgb { 210 32 65 }
+	color_ui = rgb { 210 32 65 }
+}
+
+FRD = {
+	color = rgb { 190 172 181 }
+	color_ui = rgb { 190 172 181 }
+}
+
+NCO = {
+	color = rgb { 33 42 99 }
+	color_ui = rgb { 33 42 99 }
+}
+
+LEW = {
+	color = rgb { 170 31 75 }
+	color_ui = rgb { 170 31 75 }
+}
+
+SUN = {
+	color = rgb { 233 226 156 }
+	color_ui = rgb { 233 226 156 }
+}
+
+WCO = {
+	color = rgb { 89 80 80 }
+	color_ui = rgb { 89 80 80 }
+}
+
+CEM = {
+	color = rgb { 166 86 40 }
+	color_ui = rgb { 166 86 40 }
+}
+
+ADE = {
+	color = rgb { 254 178 76 }
+	color_ui = rgb { 254 178 76 }
+}
+
+CAS = {
+	color = rgb { 21 127 37 }
+	color_ui = rgb { 21 127 37 }
+}
+
+AZT = {
+	color = rgb { 69  151  49 }
+	color_ui = rgb { 69  151  49 }
 }
