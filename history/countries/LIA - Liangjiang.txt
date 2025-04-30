@@ -39,7 +39,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Chen Duxiu"
 	desc = ""
-	picture = portrait_wu_zhihui.dds
+	picture = portrait_chen_duxiu.dds
 	ideology = syndicalism
 	traits = {
 		#
@@ -47,6 +47,5 @@ create_country_leader = {
 }
 
 add_ideas = {
-	LIA_lost_taiwan
 	LIA_anhui_pandemic
 }

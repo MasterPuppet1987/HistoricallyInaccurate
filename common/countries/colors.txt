@@ -1113,7 +1113,7 @@ KUR = {
 
 LIA = {
     color = rgb { 173 56 56 }
-	color_ui = rgb { 173 56 56 }	
+	color_ui = rgb { 173 56 56 }
 }
 
 ZHI = {
@@ -1127,8 +1127,8 @@ CHH = {
 }
 
 CHI = {
-	color = rgb { 0 0 188 }
-	color_ui = rgb { 0 0 188 }
+	color = rgb { 0 0 168 }
+	color_ui = rgb { 0 0 168 }
 }
 
 HNN = {
@@ -1170,12 +1170,12 @@ GIR = {
 
 SEM = {
     color = rgb { 210 61 67 }
-	color_ui = rgb { 210 61 67 }	
+	color_ui = rgb { 210 61 67 }
 }
 
 SFT = {
     color = rgb { 48 40 40 }
-	color_ui = rgb { 48 40 40 }	
+	color_ui = rgb { 48 40 40 }
 }
 
 CLA = {
