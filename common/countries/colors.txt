@@ -141,10 +141,7 @@ CAN = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 155 62 51 }
 }
-CHI = {
-	color = rgb { 0 0 148 }
-	color_ui = rgb { 0 0 148 }
-}
+
 CHL = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
@@ -1129,9 +1126,9 @@ CHH = {
 	color_ui = rgb { 0 102 179 }
 }
 
-ZHI = {
-	color = rgb { 100 120 20 }
-	color_ui = rgb { 100 120 20 }
+CHI = {
+	color = rgb { 0 0 188 }
+	color_ui = rgb { 0 0 188 }
 }
 
 HNN = {
@@ -1145,13 +1142,18 @@ XIK = {
 }
 
 SIC = {
-	color = rgb { 53 151 143 }
-	color_ui = rgb { 53 151 143 }
+	color = rgb { 83 151 143 }
+	color_ui = rgb { 83 151 143 }
 }
 
 SHA = {
 	color = rgb { 194 165 207 }
 	color_ui = rgb { 194 165 207 }
+}
+
+ZHI = {
+	color = rgb { 100 120 20 }
+	color_ui = rgb { 100 120 20 }
 }
 
 
@@ -1161,8 +1163,8 @@ CEL = {
 }
 
 GIR = {
-    color = rgb { 90 80 39 }
-	color_ui = rgb { 0 91 34 }
+    color = rgb { 50 50 9 }
+	color_ui = rgb { 50 50 9 }
 }
 
 
@@ -1187,8 +1189,8 @@ IRO = {
 }
 
 FRD = {
-	color = rgb { 190 172 181 }
-	color_ui = rgb { 190 172 181 }
+	color = rgb { 230 202 211 }
+	color_ui = rgb { 230 202 211 }
 }
 
 NCO = {
@@ -1197,8 +1199,8 @@ NCO = {
 }
 
 LEW = {
-	color = rgb { 170 31 75 }
-	color_ui = rgb { 170 31 75 }
+	color = rgb { 200 61 105 }
+	color_ui = rgb { 200 61 105 }
 }
 
 SUN = {
@@ -1217,8 +1219,8 @@ CEM = {
 }
 
 ADE = {
-	color = rgb { 254 178 76 }
-	color_ui = rgb { 254 178 76 }
+	color = rgb { 254 208 106 }
+	color_ui = rgb { 254 208 106 }
 }
 
 CAS = {
