@@ -87,7 +87,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 160 101 160 }
+		color = { 107 63 160 }
 
 
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -335,7 +335,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 
-		color = { 150 75 0 }
+		color = { 125 62 0 }
 
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
