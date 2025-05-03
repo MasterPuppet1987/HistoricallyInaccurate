@@ -329,39 +329,3 @@ BHR = "countries/Bahrain.txt"
 IMO = "countries/Omani Imamate.txt"
 BLC = "countries/Balochistan.txt"
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")
-
-### HI
-
-# CHINA WARLORDS
-
-ZHI = "countries/Zhili.txt"
-LIA = "countries/Liangjiang.txt"
-HNN = "countries/Hunan.txt"
-SIC = "countries/Sichuan.txt"
-XIK = "countries/Xikang.txt"
-SHA = "countries/Shandong.txt"
-CHH = "countries/Chahar.txt"
-
-# EUROPA
-
-CEL = "countries/Celtica.txt"
-GIR = "countries/IberianRealm.txt"
-
-# AMERICAS
-
-INU = "countries/Inuit.txt"
-CLA = "countries/CelticAmerica.txt"
-IRO = "countries/Iroquese.txt"
-NCO = "countries/NorthernConfederation.txt"
-SEM = "countries/Seminole.txt"
-FRD = "countries/FreeDalia.txt"
-WCO = "countries/WolfCommonwealth.txt"
-LEW = "countries/Leeway.txt"
-CEM = "countries/Cemanahuas.txt"
-SUN = "countries/SunsetState.txt"
-ADE = "countries/Adetes.txt"
-CAS = "countries/Cascadocia.txt"
-AZT = "countries/Aztec.txt"
-MAY = "countries/Maya.txt"
-INC = "countries/Inca.txt"
-GAR = "countries/Guarani.txt"

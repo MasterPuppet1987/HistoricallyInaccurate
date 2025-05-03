@@ -1,0 +1,86 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = bavaria_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 50
+			tag = BAY
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1750 }
+
+	initial_show_position = {
+	    focus = IRQ_rally_behind_the_hashemite_dynasty
+	}
+
+
+	# Start of the Focus Tree
+
+    ### MAIN ###
+
+    focus = {
+        id = BAV_end_the_monarchy
+        icon = GFX_SOV_bringing_breakaways_back_to_the_fold_ccp_2d_sov_compatibility
+        x = 4
+        y = 0
+        cost = 2
+        available_if_capitulated = no
+        cancel_if_invalid = no
+        continue_if_invalid = no
+        cancelable = no
+        bypass_if_unavailable = no
+        mutually_exclusive = { focus = BAV_power_to_the_king }
+        completion_reward = {
+            add_political_power = 50
+        }
+    }
+
+    focus = {
+        id = BAV_power_to_the_king
+        icon = GFX_focus_generic_monarchist_sentiment
+        x = 10
+        y = 0
+		relative_position_id = BAV_end_the_monarchy
+        cost = 2
+        available_if_capitulated = no
+        cancel_if_invalid = no
+        continue_if_invalid = no
+        cancelable = no
+        bypass_if_unavailable = no
+        mutually_exclusive = { focus = BAV_end_the_monarchy }
+        completion_reward = {
+            add_stability = 0.05
+        }
+    }
+
+    focus = {
+        id = ALG_peoples_front
+        icon = GFX_focus_GER_proletarian_solidarity
+        x = 0
+        y = 1
+        relative_position_id = ALG_independence_movement
+        cost = 4
+        available_if_capitulated = no
+        cancel_if_invalid = no
+        continue_if_invalid = no
+        cancelable = no
+        bypass_if_unavailable = No
+        prerequisite = { focus = ALG_independence_movement }
+        completion_reward = {
+            add_political_power = 50
+        }
+    }
+}

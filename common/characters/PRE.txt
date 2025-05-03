@@ -1,0 +1,22 @@
+characters = {
+
+
+	PRE_wilhelm_ii = {
+		name = PRE_wilhelm_ii
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PRE_wilhelm_ii
+			}
+		}
+
+		country_leader = {
+			ideology = federal_monarchy
+			traits = { the_soldier_king }
+			expire = "1941.6.4.1"
+		}
+	}
+
+	
+
+}

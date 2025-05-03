@@ -6,13 +6,14 @@ state={
 	}
 
 	history={
-		owner = MON
+		owner = KHT
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
 			12612 1 #Sainshand
 		}
+		add_core_of = KHT
 		add_core_of = MON
 		add_core_of = CHH
 	}
