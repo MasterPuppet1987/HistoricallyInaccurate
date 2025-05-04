@@ -1,3 +1,4 @@
 # Historically Inaccurate
 
-*tdg is NOT a thug shaker vro*
+*tdg is a true wordingtonian and spartan thug, i hate je*
+
