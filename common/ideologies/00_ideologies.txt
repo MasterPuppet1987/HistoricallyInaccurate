@@ -7,8 +7,13 @@ ideologies = {
 			anarcho_communism = {
 			}
 
-			anarcho_capitalism = {
+			anarcho_syndicalism = {
 			}
+
+			mutualism = {
+			}
+
+			
 		}
 
 		dynamic_faction_names = {
@@ -77,6 +82,9 @@ ideologies = {
 
 			federal_monarchy = {
 			}
+
+			bonapartism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -121,22 +129,24 @@ ideologies = {
 		
 		ai_give_core_state_control_threshold = 10000
 	}
-
 	
 	democratic = {
 
 		types = {
 
-			conservatism = {
+			conservative_democracy = {
 			}
 
-			liberalism = {
+			social_democracy = {
 			}
 
-			socialism = {
+			direct_democracy = {
 			}
 
-			populism = {
+			christian_democracy = {
+			}
+
+			islamic_democracy = {
 			}
 		}
 
@@ -149,7 +159,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 0 0 200 }
+		color = { 125 125 250 }
 
 		rules = {
 			can_create_collaboration_government = no
@@ -191,24 +201,29 @@ ideologies = {
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
 	}
 
-
 	communism = {
 
 		types = {
 
-			marxism = {
+			marxism_leninism = {
 			}
 
 			leninism = {
 			}
 
-			stalinism = {
+			juche = {
 			}
 
-			anti_revisionism = {
+			maoism = {
 			}
 
-			anarchist_communism = {
+			council_communism = {
+			}
+
+			luxemburgism = {
+			}
+
+			trotskyism = {
 			}
 		}
 
@@ -254,15 +269,25 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10
 	}
 
-	libsoc = {
+	socialism = {
 
 		types = {
 
 			syndicalism = {
 			}
 
-			council_communism = {
+			democratic_socialism = {
 			}
+
+			market_socialism = {
+			}
+
+			christian_socialism = {
+			}
+
+			labor_zionism = {
+			}
+
 		}
 
 		dynamic_faction_names = {
@@ -311,19 +336,22 @@ ideologies = {
 
 		types = {
 
-			nazism = {
-			}
-
-			gen_nazism = {
-			}
-
 			fascism_ideology = {
+			}
+
+			national_syndicalism = {
 			}
 
 			falangism = {
 			}
 
 			rexism = {
+			}
+
+			esoteric_fascism = {
+			}
+
+			strasserism = {
 			}
 		}
 
@@ -335,7 +363,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 
-		color = { 125 62 0 }
+		color = { 166 83 0 }
 
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -365,7 +393,6 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10000
 	}
 
-
 	theocracy = {
 
 		types = {
@@ -373,7 +400,23 @@ ideologies = {
 			catholic_theocracy = {
 			}
 
+			orthodox_theocracy = {
+				
+			}
+
 			islamic_theocracy = {
+				
+			}
+
+			jewish_theocracy = {
+				
+			}
+
+			buddhist_theocracy = {
+				
+			}
+
+			pagan_theocracy = {
 				
 			}
 		}
@@ -387,7 +430,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 29 90 210 }
+		color = { 129 167 186 }
 
 		rules = {
 			can_create_collaboration_government = no
@@ -429,22 +472,78 @@ ideologies = {
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
 	}
 
+	libertarianism = {
+
+		types = {
+
+			anarcho_capitalism = {
+			}
+
+			austrian_school = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+
+		color = { 230 226 4 }
+
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.1
+
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+			embargo_cost_factor = -0.5
+			embargo_threshold_factor = -0.5
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		
+		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
+	}
 
 	authoritarianism = {
 
 		types = {
 
-			despotism  = {
+			military_junta  = {
 			}
 
-			oligarchism  = {
+			corporatism  = {
 			}
 
-			moderatism = {
-			}
-
-			centrism = {
-			}
 		}
 
 		dynamic_faction_names = {
