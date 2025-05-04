@@ -25,3 +25,8 @@ XIK = "countries/Xikang.txt"
 ZHI = "countries/Zhili.txt"
 
 NOV = "countries/Novgorod.txt"
+YAR = "countries/Yaroslavl.txt"
+SYS = "countries/Syktyvar.txt"
+RYA = "countries/Ryazan.txt"
+GAY = "countries/Galitsya.txt"
+LIV = "Livonia.txt"

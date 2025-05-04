@@ -1127,8 +1127,8 @@ CHH = {
 }
 
 CHI = {
-	color = rgb { 0 0 168 }
-	color_ui = rgb { 0 0 168 }
+	color = rgb { 36 36 90 }
+	color_ui = rgb { 36 36 90 }
 }
 
 HNN = {
