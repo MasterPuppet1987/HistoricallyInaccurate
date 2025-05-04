@@ -411,7 +411,7 @@ if = {
 
 set_popularities = {
 	anarchism = 2
-	authoritarianism = 7
+	neutrality = 7
 	communism = 22
 	democratic = 9
 	fascism = 2
