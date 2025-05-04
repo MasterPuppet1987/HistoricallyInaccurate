@@ -19,21 +19,22 @@ if = {
 }
 
 set_politics = {
-	ruling_party = libsoc
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    anarchism = 3
-	democratic = 10
-	communism = 25
-    libsoc = 54
+    anarchism = 2
+	authoritarianism = 7
+	communism = 22
+	democratic = 9
+	fascism = 2
+	libertarianism = 1
+	monarchism = 2
+    socialism = 54
     theocracy = 1 
-    monarchism = 2
-    fascism = 2
-    authoritarianism = 3
 }
 
 create_country_leader = {

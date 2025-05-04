@@ -15,16 +15,16 @@ set_politics = {
 }
 
 set_popularities = {
-	anarchism = 1
-	democratic = 5
-	communism = 6
-    libsoc = 4
-    theocracy = 1
-    monarchism = 2
-    fascism = 6
-    authoritarianism = 75
+	anarchism = 2
+	authoritarianism = 7
+	communism = 22
+	democratic = 9
+	fascism = 2
+	libertarianism = 1
+	monarchism = 2
+    socialism = 54
+    theocracy = 1 
 }
-
 create_country_leader = {
 	name = "Ahmed Ben Bella"
 	desc = ""

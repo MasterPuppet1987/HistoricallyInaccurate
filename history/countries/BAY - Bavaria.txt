@@ -80,15 +80,17 @@ set_politics = {
 	elections_allowed = yes
 
 }
+
 set_popularities = {
-    anarchism = 2
-	democratic = 6
-	communism = 6
-    libsoc = 6
-    theocracy = 0 
-    monarchism = 70
-    fascism = 2
-    authoritarianism = 8
+	anarchism = 2
+	authoritarianism = 7
+	communism = 22
+	democratic = 9
+	fascism = 2
+	libertarianism = 1
+	monarchism = 2
+    socialism = 54
+    theocracy = 1 
 }
 
 add_ideas = {

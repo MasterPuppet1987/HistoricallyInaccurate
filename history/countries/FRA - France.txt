@@ -418,15 +418,17 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
 	anarchism = 2
-	democratic = 5
-	communism = 3
-    libsoc = 2
-    theocracy = 3
-    monarchism = 59
-    fascism = 1
-    authoritarianism = 25
+	authoritarianism = 7
+	communism = 22
+	democratic = 9
+	fascism = 2
+	libertarianism = 1
+	monarchism = 2
+    socialism = 54
+    theocracy = 1 
 }
 
 add_ideas = {
