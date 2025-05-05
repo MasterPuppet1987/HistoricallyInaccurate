@@ -16,15 +16,26 @@ set_politics = {
 
 set_popularities = {
 	anarchism = 2
-	neutrality = 7
+	neutrality = 54
 	communism = 22
 	democratic = 9
 	fascism = 2
 	libertarianism = 1
 	monarchism = 2
-    socialism = 54
+    socialism = 7
     theocracy = 1 
 }
+
+declare_war_on = {
+	target = IRO
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = FRD
+	type = annex_everything
+}
+
 create_country_leader = {
 	name = "Ahmed Ben Bella"
 	desc = ""
