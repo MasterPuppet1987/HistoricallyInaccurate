@@ -1,0 +1,34 @@
+state = {
+	id = 1017
+	name = "STATE_1017"
+	manpower = 810000
+	resources = {
+		steel = 26
+		aluminium = 7
+	}
+	
+	state_category = metropolis
+
+	history = {
+
+		owner = FRA
+		add_core_of = GER
+		add_core_of = RHI
+		add_core_of = PRE
+
+		victory_points = { 
+			11531 5 # Saarbrücken
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		11531 
+	}
+	
+	local_supplies = 0.0 
+}
