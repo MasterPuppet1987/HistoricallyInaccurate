@@ -17,6 +17,10 @@ state = {
 			241 5 # Wilhelmshaven
 		}
 
+		victory_points = {
+			309 10 # Oldenburg
+		}
+
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

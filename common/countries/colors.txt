@@ -1237,3 +1237,58 @@ GAL = {
 	color = rgb { 32 33 30 }
 	color_ui = rgb { 51 151 91 }
 }
+
+NOV = {
+	color = rgb { 0 128 128 }
+	color_ui = rgb { 0 128 128 }
+}
+
+YAR = {
+	color = rgb { 239 101 72 }
+	color_ui = rgb { 239 101 72 }
+}
+
+SYS = {
+	color = rgb { 150 166 191 }
+	color_ui = rgb { 150 166 191 }
+}
+
+RYA = {
+	color = rgb { 245 208 134 }
+	color_ui = rgb { 245 208 134 }
+}
+
+GAY = {
+	color = rgb { 140 150 198 }
+	color_ui = rgb { 140 150 198 }
+}
+
+OLD = {
+	color = rgb { 204 89 42 }
+	color_ui = rgb { 204 89 42 }
+}
+
+BLG = {
+	color = rgb { 149 207 137 }
+	color_ui = rgb { 149 207 137 }
+}
+
+NRA = {
+	color = rgb { 0 82 81 }
+	color_ui = rgb { 0 82 81 }
+}
+
+WAL = {
+	color = rgb { 215 196 72 }
+	color_ui = rgb { 255 255 120 }
+}
+
+LEC = {
+	color = rgb { 121 173 94 }
+	color_ui = rgb { 121 173 94 }
+}
+
+MRV = {
+	color = rgb { 166 104 161 }
+	color_ui = rgb { 166 104 161 }
+}
