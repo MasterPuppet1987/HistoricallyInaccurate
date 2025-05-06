@@ -1,0 +1,13 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_focus_PRE_the_future_of_our_fatherland"
+		texturefile = "gfx/interface/goals/focus_PRE_the_future_of_our_fatherland.dds"
+	}
+
+    SpriteType = {
+		name = "GFX_focus_PRE_reclaim_the_holy_land"
+		texturefile = "gfx/interface/goals/focus_PRE_reclaim_the_holy_land.dds"
+	}
+
+	
+}

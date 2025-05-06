@@ -1,0 +1,159 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = prussia_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 50
+			tag = PRE
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1750 }
+
+	initial_show_position = {
+	    focus = IRQ_rally_behind_the_hashemite_dynasty
+	}
+
+
+	# Start of the Focus Tree
+
+    ### MAIN ###
+
+    focus = {
+        id = PRE_the_future_of_our_fatherland
+        icon = GFX_PRE_the_future_of_our_fatherland
+        x = 8
+        y = 0
+        cost = 2
+        available_if_capitulated = no
+        cancel_if_invalid = no
+        continue_if_invalid = no
+        cancelable = no
+        bypass_if_unavailable = no
+        completion_reward = {
+            add_political_power = 15
+        }
+    }
+
+    focus = {
+        id = PRE_oppose_the_kaiser
+        icon = GFX_SOV_bringing_breakaways_back_to_the_fold_ccp_2d_sov_compatibility
+        x = -4
+        y = 1
+        relative_position_id = PRE_the_future_of_our_fatherland
+        cost = 2
+        available_if_capitulated = no
+        cancel_if_invalid = no
+        continue_if_invalid = no
+        cancelable = no
+        bypass_if_unavailable = no
+        prerequisite = { focus = PRE_the_future_of_our_fatherland }
+        mutually_exclusive = { focus = PRE_the_kaisers_mandate }
+        completion_reward = {
+            add_political_power = 15
+        }
+    }
+
+    focus = {
+        id = PRE_the_kaisers_mandate
+        icon = GFX_SOV_bringing_breakaways_back_to_the_fold_ccp_2d_sov_compatibility
+        x = 4
+        y = 1
+        relative_position_id = PRE_the_future_of_our_fatherland
+        cost = 2
+        available_if_capitulated = no
+        cancel_if_invalid = no
+        continue_if_invalid = no
+        cancelable = no
+        bypass_if_unavailable = no
+        prerequisite = { focus = PRE_the_future_of_our_fatherland }
+        mutually_exclusive = { focus = PRE_oppose_the_kaiser }
+        completion_reward = {
+            add_political_power = 15
+        }
+    }
+
+    focus = {
+        id = PRE_united_opposition
+        icon = GFX_focus_GER_proletarian_solidarity
+        x = -4
+        y = 1
+        relative_position_id = PRE_oppose_the_kaiser
+        cost = 2
+        available_if_capitulated = no
+        cancel_if_invalid = no
+        continue_if_invalid = no
+        cancelable = no
+        bypass_if_unavailable = no
+        prerequisite = { focus = PRE_oppose_the_kaiser }
+        mutually_exclusive = { focus = PRE_march_of_iron }
+        mutually_exclusive = { focus = PRE_der_deutsches_order }
+        available = {
+            has_war_with = FRA
+        }
+        completion_reward = {
+            add_political_power = 50
+            add_stability = -0.05
+        }
+    }
+
+    focus = {
+        id = PRE_march_of_iron
+        icon = GFX_focus_GER_proletarian_solidarity
+        x = 0
+        y = 1
+        relative_position_id = PRE_oppose_the_kaiser
+        cost = 2
+        available_if_capitulated = no
+        cancel_if_invalid = no
+        continue_if_invalid = no
+        cancelable = no
+        bypass_if_unavailable = no
+        prerequisite = { focus = PRE_oppose_the_kaiser }
+        mutually_exclusive = { focus = PRE_united_opposition }
+        mutually_exclusive = { focus = PRE_der_deutsches_order }
+        available = {
+            has_war_with = FRA
+        }
+        completion_reward = {
+            add_political_power = 50
+            add_stability = -0.05
+        }
+    }
+
+    focus = {
+        id = PRE_der_deutsches_order
+        icon = GFX_focus_PRE_reclaim_the_holy_land
+        x = 4
+        y = 1
+        relative_position_id = PRE_oppose_the_kaiser
+        cost = 2
+        available_if_capitulated = no
+        cancel_if_invalid = no
+        continue_if_invalid = no
+        cancelable = no
+        bypass_if_unavailable = no
+        prerequisite = { focus = PRE_oppose_the_kaiser }
+        mutually_exclusive = { focus = PRE_march_of_iron }
+        mutually_exclusive = { focus = PRE_united_opposition }
+        available = {
+            has_war_with = FRA
+        }
+        completion_reward = {
+            add_political_power = 50
+            add_stability = -0.05
+        }
+    }
+}
