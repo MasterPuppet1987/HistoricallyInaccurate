@@ -74,23 +74,23 @@ set_convoys = 50
 set_stability = 0.75
 
 set_politics = {
-	ruling_party = monarchism
-	last_election = "1921.8.18"
+	ruling_party = democratic
+	last_election = "1920.5.12"
 	election_frequency = 48
 	elections_allowed = yes
 
 }
 
 set_popularities = {
-	anarchism = 2
-	neutrality = 7
-	communism = 22
-	democratic = 9
+	anarchism = 1
+	neutrality = 5
+	communism = 4
+	democratic = 62
 	fascism = 2
-	libertarianism = 1
-	monarchism = 2
-    socialism = 54
-    theocracy = 1 
+	libertarianism = 6
+	monarchism = 11
+    socialism = 7
+    theocracy = 2 
 }
 
 add_ideas = {

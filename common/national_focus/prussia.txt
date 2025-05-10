@@ -34,7 +34,7 @@ focus_tree = {
     focus = {
         id = PRE_the_future_of_our_fatherland
         icon = GFX_PRE_the_future_of_our_fatherland
-        x = 8
+        x = 12
         y = 0
         cost = 2
         available_if_capitulated = no
@@ -148,9 +148,28 @@ focus_tree = {
         prerequisite = { focus = PRE_oppose_the_kaiser }
         mutually_exclusive = { focus = PRE_march_of_iron }
         mutually_exclusive = { focus = PRE_united_opposition }
-        available = {
-            has_war_with = FRA
+        completion_reward = {
+            add_stability = -0.05
+            add_popularity = {
+				ideology = theocracy 
+				popularity = 0.25
+			}
         }
+    }
+
+    focus = {
+        id = PRE_request_aid_from_japan
+        icon = GFX_focus_GER_proletarian_solidarity
+        x = 0
+        y = 1
+        relative_position_id = PRE_united_opposition
+        cost = 4
+        available_if_capitulated = no
+        cancel_if_invalid = no
+        continue_if_invalid = no
+        cancelable = no
+        bypass_if_unavailable = no
+        prerequisite = { focus = PRE_united_opposition }
         completion_reward = {
             add_political_power = 50
             add_stability = -0.05

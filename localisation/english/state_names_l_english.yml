@@ -546,6 +546,7 @@
  STATE_406:1 "Guryev"
  STATE_407:1 "Ural'sk"
  STATE_408:0 "Vladivostok"
+ JAP_STATE_408:0 "Urajio"
  STATE_409:0 "Khabarovsk"
  STATE_410:0 "Sistan"
  STATE_411:0 "Isfahan"
@@ -675,6 +676,7 @@
  STATE_535:0 "Koshinetsu"
  STATE_536:0 "Hokkaido"
  STATE_537:0 "South Sakhalin"
+ JAP_STATE_537:0 "South Karafuto"
  STATE_538:1 "Coquilhatville"
  STATE_539:0 "Gabon"
  STATE_540:2 "Luanda"
@@ -793,6 +795,7 @@
  STATE_653:0 "Sverdlovsk"
  STATE_654:1 "Oyrot Region"
  STATE_655:0 "North Sakhalin"
+ JAP_STATE_655:0 "North Karafuto"
  STATE_656:0 "Kuwait"
  STATE_657:0 "Birobidzhan"
  STATE_658:0 "Abu Dhabi"
@@ -1211,7 +1214,7 @@
  STATE_1016: "Dhofar"
  STATE_1017: "Saarland"
  STATE_1018: "Oldenburg"
-
+ STATE_1019: "Köln"
 
 
 
