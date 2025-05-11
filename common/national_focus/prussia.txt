@@ -158,6 +158,25 @@ focus_tree = {
     }
 
     focus = {
+        id = PRE_negotiate_democratic_support
+        icon = GFX_focus_GER_proletarian_solidarity
+        x = 0
+        y = 1
+        relative_position_id = PRE_united_opposition
+        cost = 4
+        available_if_capitulated = no
+        cancel_if_invalid = no
+        continue_if_invalid = no
+        cancelable = no
+        bypass_if_unavailable = no
+        prerequisite = { focus = PRE_united_opposition }
+        completion_reward = {
+            add_political_power = 50
+            add_stability = -0.05
+        }
+    
+
+    focus = {
         id = PRE_request_aid_from_japan
         icon = GFX_focus_GER_proletarian_solidarity
         x = 0

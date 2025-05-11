@@ -1,0 +1,28 @@
+state=
+{
+	id=1020
+	name="STATE_1020"
+	manpower = 460777
+	
+	state_category = town
+	history=
+	{
+		owner = KOR
+		buildings = {
+			infrastructure = 0
+			arms_factory = 0
+			dockyard = 1
+			1177 = {
+				naval_base = 1
+			}
+		}
+
+		add_core_of = KOR
+
+	}
+	provinces={
+		1177
+	}
+
+	local_supplies=0.0 
+}
