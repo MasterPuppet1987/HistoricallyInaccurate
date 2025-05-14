@@ -1,0 +1,24 @@
+state=
+{
+	id=1025
+	name="STATE_1025"
+	manpower = 1382332
+	
+	state_category = town
+	history=
+	{
+		owner = KOR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4056 1 
+		}
+		add_core_of = KOR
+	}
+	provinces={
+		4056 4086 1081 10115 4103 12089 7121 11912
+	}
+
+	local_supplies=0.0 
+}
