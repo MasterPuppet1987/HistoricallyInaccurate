@@ -3,6 +3,10 @@ state = {
 	name = "STATE_807"
 	manpower = 713370
 	
+	resources = {
+		lumber = 4
+	}
+
 	state_category = city
 
 	history = {
