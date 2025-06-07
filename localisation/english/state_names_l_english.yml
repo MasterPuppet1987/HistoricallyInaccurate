@@ -733,7 +733,7 @@
  STATE_590:0 "Akmolinsk"
  STATE_591:0 "Hainan"
  STATE_592:0 "Guangzhou"
- STATE_593:0 "Guangdong"
+ STATE_593:0 "Western Guangdong"
  STATE_594:0 "Nanning"
  STATE_595:0 "Fujian"
  STATE_596:0 "Zhejiang"
@@ -1235,7 +1235,8 @@
  KOR_STATE_1029: "Pyeonganbuk-do"
  STATE_1030: "North Hamgyong"
  KOR_STATE_1030: "Hamgyeongbuk-do"
-
-
+ STATE_1031: "Eastern Guangdong"
+ STATE_1032: "Ganzhou"
+ STATE_1033: "Yantai-Weihai"
 
 
