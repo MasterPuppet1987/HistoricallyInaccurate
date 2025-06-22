@@ -1,0 +1,7 @@
+leader_traits = {
+	marshal_of_poland = {
+		sprite = 1
+		planning_speed = 0.1
+		army_attack_factor = 0.05
+	}
+}

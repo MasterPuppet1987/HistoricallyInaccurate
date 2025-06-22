@@ -1,0 +1,37 @@
+characters = {
+
+
+	POL_jozef_pilsudski = {
+		name = PRE_jozef_pilsudski
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POL_jozef_pilsudski
+			}
+		}
+
+		country_leader = {
+			ideology = agrarian_socialism
+			desc = POL_jozef_pilsudski
+			traits = {}
+			expire = "1935.6.12.1"
+		}
+	}
+
+	POL_roman_dmowski = {
+		name = PRE_roman_dmowski
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POL_roman_dmowski
+			}
+		}
+
+		country_leader = {
+			ideology = national_conservatism
+			desc = POL_roman_dmowski
+			expire = "1939.1.2.1"
+		}
+	}
+
+}

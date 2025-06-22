@@ -3,4 +3,14 @@ spriteTypes = {
         name = "GFX_portrait_PRE_wilhelm_ii"
         texturefile = "gfx/leaders/PRE/portrait_wilhelm_ii.dds"
     }
+
+    spriteType = {
+        name = "GFX_portrait_POL_jozef_pilsudski"
+        texturefile = "gfx/leaders/POL/portrait_jozef_pilsudski.dds"
+    }
+
+    spriteType = {
+        name = "GFX_portrait_POL_roman_dmowski"
+        texturefile = "gfx/leaders/POL/portrait_roman_dmowski.dds"
+    }
 }

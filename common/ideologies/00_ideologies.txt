@@ -142,6 +142,9 @@ ideologies = {
 			syndicalism = {
 			}
 
+			agrarian_socialism = {
+			}
+
 			democratic_socialism = {
 			}
 
@@ -434,6 +437,9 @@ ideologies = {
 
 		types = {
 			conservative_populism = {
+			}
+
+			national_conservatism = {
 			}
 
 			christian_democracy = {
