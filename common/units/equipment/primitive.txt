@@ -1,0 +1,35 @@
+equipments = {
+
+	primitive_weaponry = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_primitive_weaponry
+		is_buildable = no
+		type = {
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			aluminium = 1
+			steel = 2
+		}
+	}
+
+	primitive_weaponry_1 = {
+		year = 1918
+
+		archetype = primitive_weaponry
+		priority = 20	
+	}
+
+}
