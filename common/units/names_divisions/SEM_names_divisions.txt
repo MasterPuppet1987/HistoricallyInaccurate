@@ -1,5 +1,5 @@
 # Infantry
-AFA_INF_01 = {
+SEM_INF_01 = {
 	name = "Ayakki Taaski Apokti"
 
 	for_countries = { SEM }
@@ -26,7 +26,7 @@ AFA_INF_01 = {
 	}
 }
 
-AFA_CAV_01 = {
+SEM_CAV_01 = {
 	name = "Kawayi Apokti"
 
 	for_countries = { SEM }
@@ -40,6 +40,16 @@ AFA_CAV_01 = {
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
+		1 = { "Lhamin Kawayi Apokti" }
+		2 = { "Toklan Kawayi Apokti" }
+		3 = { "Toccinan Kawayi Apokti" }
+		4 = { "Ostakan Kawayi Apokti" }
+		5 = { "Cahappakan Kawayi Apokti" }
+		6 = { "Fockan Kawayi Apokti" }
+		7 = { "Kolapákan Kawayi Apokti" }
+		8 = { "Tocnapákan Kawayi Apokti" }
+		9 = { "Ostapákan Kawayi Apokti" }
+		10 = { "Póklon Kawayi Apokti" }
 	}
 }
 
