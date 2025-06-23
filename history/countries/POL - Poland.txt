@@ -94,16 +94,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	anarchism = 5
-	neutrality = 5
+	anarchism = 4
+	neutrality = 4
 	communism = 7
-	democratic = 6
-	conservatism = 28
-	fascism = 4
+	democratic = 7
+	conservatism = 21
+	fascism = 3
+	nationalism = 13
 	libertarianism = 4
-	monarchism = 6
+	monarchism = 3
 	socialism = 33
-	theocracy = 2
+	theocracy = 1
 }
 
 recruit_character = POL_jozef_pilsudski

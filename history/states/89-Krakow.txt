@@ -9,12 +9,11 @@ state={
 		#victory_points = {
 		#	6483 1
 		#}
-		owner = LEC
+		owner = AUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
-		add_core_of = LEC
 		add_core_of = POL
 
 	}
