@@ -2,7 +2,7 @@ characters = {
 
 
 	POL_jozef_pilsudski = {
-		name = PRE_jozef_pilsudski
+		name = POL_jozef_pilsudski
 
 		portraits = {
 			civilian = {
@@ -13,13 +13,15 @@ characters = {
 		country_leader = {
 			ideology = agrarian_socialism
 			desc = POL_jozef_pilsudski
-			traits = {}
+			traits = {
+				marshal_of_poland
+			}
 			expire = "1935.6.12.1"
 		}
 	}
 
 	POL_roman_dmowski = {
-		name = PRE_roman_dmowski
+		name = POL_roman_dmowski
 
 		portraits = {
 			civilian = {
