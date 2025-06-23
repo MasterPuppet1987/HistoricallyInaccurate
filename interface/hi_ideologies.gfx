@@ -1,5 +1,10 @@
 spriteTypes = {
     spriteType = {
+        name = GFX_ideology_anarcho_communism
+        textureFile = gfx/interface/ideologies/anarcho_communism.dds  
+    }
+
+    spriteType = {
         name = GFX_ideology_syndicalism
         textureFile = gfx/interface/ideologies/syndicalism.dds
     }
@@ -7,5 +12,20 @@ spriteTypes = {
     spriteType = {
         name = GFX_ideology_agrarian_socialism
         textureFile = gfx/interface/ideologies/agrarian_socialism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_democratic_socialism
+        textureFile = gfx/interface/ideologies/democratic_socialism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_social_democracy
+        textureFile = gfx/interface/ideologies/social_democracy.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_national_syndicalism
+        textureFile = gfx/interface/ideologies/national_syndicalism.dds
     }
 }
