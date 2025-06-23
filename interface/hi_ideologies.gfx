@@ -1,0 +1,11 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_ideology_syndicalism
+        textureFile = gfx/interface/ideologies/syndicalism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_agrarian_socialism
+        textureFile = gfx/interface/ideologies/agrarian_socialism.dds
+    }
+}

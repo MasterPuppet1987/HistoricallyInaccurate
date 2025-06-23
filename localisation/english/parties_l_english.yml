@@ -1,10 +1,6 @@
 ﻿l_english:
- anarchism:0 "Anarchist"
- anarchism_noun:0 "Anarchism"
  communism:0 "Communist"
  communism_noun:0 "Communism"
- socialism:0 "Socialist"
- socialism_noun:0 "Socialism"
  democratic:0 "Progressivist"
  democratic_noun:0 "Progressivism"
  theocracy:0 "Theocratic"
@@ -26,6 +22,9 @@
  communism_desc:0 "Communist Regime"
  democratic_desc:0 "Democratic Regime"
 
+ anarchism:0 "Anarchist"
+ anarchism_noun:0 "Anarchism"
+
  anarcho_communism:0 "Anarcho-Communist"
  anarcho_communism_noun:0 "Anarcho-Communism"
  anarcho_communism_desc:0 "All belongs to all. All things are for all men … All is for all!"
@@ -34,9 +33,17 @@
  anarcho_capitalism_noun:0 "Anarcho-Capitalism"
  anarcho_capitalism_desc:0 "We will all feel great when the money comes marching home!"
 
+ socialism:0 "Socialist"
+ socialism_noun:0 "Socialism"
+ socialism_desc:0 "Socialist Regime"
+
  syndicalism:0 "Syndicalist"
  syndicalism_noun:0 "Syndicalism"
- syndicalism_desc:0 "More! Trade! Unions!"
+ syndicalism_desc:0 "More! Trade! Unions!\n\n§RSyndicalism§! is an ideology advocating for bringing industry and government under the control of §Rlabor unions§! through §Rrevolutionary direct action§!, such as general strikes. Syndicalists envision a decentralized governence structure where a §Rfederation of syndicates§! represents various unions and economic sectors. The core aim is a society where decisions are driven by worker-led organizations."
+
+ agrarian_socialism:0 "Agrarian Socialist"
+ agrarian_socialist_noun:0 "Agrarian Socialism"
+ agrarian_socialism_desc:0 "§GAgrarian Socialism§! is an ideology that combines §GAgrarian lifestyle§! with a §RSocialist economic system§!. It promotes collective ownership of means of agricultural production. Unlike most other socialists, agrarian socialists believe that not workers, but the §Gpeasants form the basis of the Proletariat§!."
 
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
