@@ -9,6 +9,7 @@ state=
 	history=
 	{
 		owner = WAL
+		add_core_of = WAL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
