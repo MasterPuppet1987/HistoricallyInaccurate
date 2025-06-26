@@ -545,7 +545,7 @@
  STATE_405:0 "Tashkent"
  STATE_406:1 "Guryev"
  STATE_407:1 "Ural'sk"
- STATE_408:0 "Vladivostok"
+ STATE_408:0 "Haishenhwai"
  JAP_STATE_408:0 "Urajio"
  STATE_409:0 "Khabarovsk"
  STATE_410:0 "Sistan"
@@ -1238,5 +1238,6 @@
  STATE_1031: "Eastern Guangdong"
  STATE_1032: "Ganzhou"
  STATE_1033: "Yantai-Weihai"
-
-
+ STATE_1034:0 "Haishenhwai Outskirts"
+ JAP_STATE_1034:0 "Urajio Outskirts"
+ 

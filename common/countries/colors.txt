@@ -39,6 +39,11 @@ POL = {
 	color_ui = rgb { 186 40 56 }
 }
 
+AUS = {
+	color = rgb { 181 176 34 }
+	color_ui = rgb { 255 255 255 }
+}
+
 LIT = {
 	color = rgb { 219 219 119 }
 	color_ui = rgb { 255 255 155 }
@@ -166,8 +171,8 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+	color = rgb { 125  13  24 }
+	color_ui = rgb { 155  23  34 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -1268,11 +1273,6 @@ BLG = {
 NRA = {
 	color = rgb { 0 82 81 }
 	color_ui = rgb { 0 82 81 }
-}
-
-AUS = {
-	color = rgb { 181 176 34 }
-	color_ui = rgb { 255 255 255 }
 }
 
 WAL = {
