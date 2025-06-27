@@ -2,7 +2,7 @@
 state={
 	id=527
 	name="STATE_527"
-	manpower = 6774200
+	manpower = 1656320
 	state_category = town
 	resources={
 		steel=4
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		4052 10065 7171 9790 11770 978
+		4052 10065 7171 9790 11770 978 11835 912 9918 9795 11828 6963 906 11775 11896 3912
 	}
 
 	local_supplies=0.0 

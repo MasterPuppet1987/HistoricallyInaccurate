@@ -1,0 +1,28 @@
+
+state={
+	id=1036
+	name="STATE_1036"
+	manpower = 1468210
+	
+	state_category = rural
+
+	history={
+		owner = SEM
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			10352 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SEM
+
+	}
+
+	provinces={
+		492 7640 11942 10520 10352 10380
+	}
+	
+
+	local_supplies=10.0 
+}

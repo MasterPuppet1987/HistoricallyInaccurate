@@ -1,0 +1,22 @@
+
+state={
+	id=1039
+	name="STATE_1039"
+	manpower = 2908504
+	
+	state_category = rural
+
+	history={
+		owner = LEW
+		buildings = {
+			industrial_complex = 1
+		}
+		add_core_of = LEW
+	}
+
+	provinces={
+		12398 4535 4507 12313 1643 1528
+	}
+
+	local_supplies=0.0 
+}
