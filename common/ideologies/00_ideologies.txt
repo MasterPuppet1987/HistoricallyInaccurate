@@ -17,18 +17,15 @@ ideologies = {
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
+			"FACTION_NAME_ANARCHIST_1"
+			"FACTION_NAME_ANARCHIST_2"
+			"FACTION_NAME_ANARCHIST_3"
 		}
 
 		color = { 30 30 30 }
 
 		rules = {
-			can_create_collaboration_government = no
+			can_create_collaboration_government = yes
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = yes
@@ -40,16 +37,16 @@ ideologies = {
 
 		can_host_government_in_exile = yes
 
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		war_impact_on_world_tension = 0.4
 		faction_impact_on_world_tension = 0.1
 
 		modifiers = {
+			stability_factor = -0.5
 			generate_wargoal_tension = 1.00
 			join_faction_tension = 0.80
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
@@ -71,13 +68,10 @@ ideologies = {
 
 		types = {
 
-			marxism_leninism = {
-			}
-
 			leninism = {
 			}
 
-			juche = {
+			yatagarasism = {
 			}
 
 			maoism = {
@@ -160,11 +154,8 @@ ideologies = {
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_SOCIALISM_1"
+			"FACTION_NAME_SOCIALISM_2"
 		}
 
 		color = { 220 30 30 }
@@ -207,7 +198,7 @@ ideologies = {
 			social_democracy = {
 			}
 
-			left_populism = {
+			anti_authoritarianism = {
 			}
 		}
 
@@ -540,7 +531,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 150 203 230 }
+		color = { 58 184 230 }
 
 		rules = {
 			can_create_collaboration_government = no
@@ -610,7 +601,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 180 101 222 }
+		color = { 217 77 227 }
 
 
 		war_impact_on_world_tension = 0.25		#no major danger

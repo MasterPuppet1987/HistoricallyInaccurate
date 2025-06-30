@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	### BAY
+
+	spriteType = {
+		name = "GFX_idea_BAY_adolf_hitler"
+		texturefile = "gfx/interface/ideas/BAY_adolf_hitler.dds"
+	}
+
+}

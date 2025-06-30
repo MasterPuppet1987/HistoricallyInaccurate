@@ -5,6 +5,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = GFX_ideology_anarcho_syndicalism
+        textureFile = gfx/interface/ideologies/anarcho_syndicalism.dds  
+    }
+
+    spriteType = {
         name = GFX_ideology_syndicalism
         textureFile = gfx/interface/ideologies/syndicalism.dds
     }

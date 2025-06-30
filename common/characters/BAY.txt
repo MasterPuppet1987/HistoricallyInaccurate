@@ -16,7 +16,6 @@ characters = {
 			ideology = constitutional_monarchy
 			traits = { }
 			expire = "1955.1.1.1"
-			id = -1
 		}
 
 		field_marshal = { 
@@ -30,7 +29,24 @@ characters = {
 				has_government = monarchism
 			}
 		}
+	}
 
+	BAY_adolf_hitler = {
+		name = BAY_adolf_hitler
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BAY_adolf_hitler
+				small = GFX_idea_BAY_adolf_hitler
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = BAY_adolf_hitler
+			traits = { animal_rights_activist }
+			cost = 100
+		}
 	}
 
 	

@@ -6,7 +6,6 @@ state = {
 	history = {
 		owner = CEL
 		add_core_of = CEL
-		add_core_of = ENG
 		
 		victory_points = {
 			3311 1 #Douglas

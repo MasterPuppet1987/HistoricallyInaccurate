@@ -96,6 +96,6 @@ set_popularities = {
 add_ideas = {
 }
 
-recruit_character = BAY_rupprecht_of_bavaria 
+recruit_character = BAY_adolf_hitler
 
 
