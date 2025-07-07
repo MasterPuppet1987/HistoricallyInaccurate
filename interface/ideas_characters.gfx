@@ -7,4 +7,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/BAY_adolf_hitler.dds"
 	}
 
+	### IRF
+
+	spriteType = {
+		name = "GFX_idea_IRF_haydar_khan"
+		texturefile = "gfx/interface/ideas/IRF_haydar_khan.dds"
+	}
+
 }

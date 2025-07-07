@@ -68,7 +68,7 @@ ideologies = {
 
 		types = {
 
-			leninism = {
+			vanguardism = {
 			}
 
 			yatagarasism = {

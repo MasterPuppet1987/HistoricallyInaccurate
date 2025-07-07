@@ -30,7 +30,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = national_conservatism
+			ideology = national_democracy
 			desc = POL_roman_dmowski
 			expire = "1939.1.2.1"
 		}

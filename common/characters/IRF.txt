@@ -1,0 +1,58 @@
+characters = {
+
+
+	IRF_mirza_kochak_khan = {
+		name = IRF_mirza_kochak_khan
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_IRF_mirza_kochak_khan
+			}
+		}
+
+		country_leader = {
+			ideology = vanguardism
+			traits = { }
+			expire = "1942.2.18.1"
+		}
+	}
+
+	IRF_haydar_khan = {
+		name = IRF_haydar_khan
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_IRF_haydar_khan
+			}
+			army = {
+				large = GFX_portrait_IRF_haydar_khan
+				small = GFX_idea_IRF_haydar_khan
+			}
+		}
+
+		field_marshal = { 
+			traits = { organizer thorough_planner politically_connected }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			visible = {
+				has_government = communism
+			}
+		}
+
+		advisor = {
+			slot = army_chief
+			idea_token = IRF_haydar_khan
+			allowed = {
+					original_tag = IRF
+				}
+				traits = {
+					army_chief_offensive_2
+				}
+				cost = 100
+		}
+	}
+
+}

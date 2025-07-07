@@ -10,6 +10,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = GFX_ideology_mutualism
+        textureFile = gfx/interface/ideologies/mutualism.dds  
+    }
+
+    spriteType = {
         name = GFX_ideology_syndicalism
         textureFile = gfx/interface/ideologies/syndicalism.dds
     }
@@ -32,5 +37,10 @@ spriteTypes = {
     spriteType = {
         name = GFX_ideology_national_syndicalism
         textureFile = gfx/interface/ideologies/national_syndicalism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_warlordism
+        textureFile = gfx/interface/ideologies/warlordism.dds
     }
 }

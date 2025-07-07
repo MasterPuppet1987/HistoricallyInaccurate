@@ -2,7 +2,6 @@ characters = {
 
 
 	BAY_rupprecht_of_bavaria = {
-
 		name = BAY_rupprecht_of_bavaria
 
 		portraits = {

@@ -1,8 +1,6 @@
 ﻿l_english:
  theocracy:0 "Esoteric"
  theocracy_noun:0 "Esotericism"
- neutrality:0 "Authoritarian"
- neutrality_noun:0 "Authoritarianism"
  nationalism:0 "Nationalist"
  nationalism_noun:0 "Nationalism"
  conservatism:0 "Conservatist"
@@ -24,11 +22,15 @@
 
  mutualism:0 "Mutualist"
  mutualism_noun:0 "Mutualism"
- mutualism_desc:0 "§OMutualism§! is an economically left-wing, yet pro-market, anarchist ideology primarily based upon the writings of §OPierre-Joseph Proudhon§!.\n\nIt advocates for a socialist system based on a free market economy and usufructs, the introduction of a mutual credit bank, ownership of the means of production by either workers collectively or by the individuals using them, and the representation of trade by equal amounts of labour in the free market."
+ mutualism_desc:0 "§OMutualism§! is an economically left-wing, yet pro-market, anarchist school of thought primarily based upon the writings of §OPierre-Joseph Proudhon§!.\n\nIt advocates for a workers' control of the means of prouction, a free market mae up of individual artisans, sole proprietorships and worker's cooperatives, and usufructs."
 
  communism:0 "Communist"
  communism_noun:0 "Communism"
  communism_desc:0 "Communist Regime"
+
+ vanguardism:0 "Vanguard"
+ vanguardism_noun:0 "Vanguardism"
+ vanguardism_desc:0 "§RVanguardism§! is the idea that a revolutionary §Rvanguard party§!, composed of the most conscious and disciplined workers, §Rmust lead the proletariat§! in overthrowing capitalism and establishing socialism, ultimately progressing to communism.\n\nThe vanguard works to engage the working class in revolutionary politics and to strengthen proletarian political power against the bourgeoisie."
 
  yatagarasism:0 "Yatagarasist"
  yatagarasism_noun:0 "Yatagarasism"
@@ -77,6 +79,14 @@
  anarcho_capitalism:0 "Anarcho-Capitalist"
  anarcho_capitalism_noun:0 "Anarcho-Capitalism"
  anarcho_capitalism_desc:0 "§YAnarcho-Capitalism§! is a philosophy that advocates for the self-ownership of the individuals and the elimination of the state and the provision of all governmental services by self-regulating free market competitors."
+
+ neutrality:0 "Authoritarian"
+ neutrality_noun:0 "Authoritarianism"
+ neutrality_noun:0 "Authoritarian Regime"
+ 
+ warlordism:0 "Warlordist"
+ warlordism_noun:0 "Warlordism"
+ warlordism_desc:"§gWarlords§! are individuals who exercise military, economic, often one without a strong central or national government, and political control over a region, typically through control over local armed forces."
 
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
@@ -1599,3 +1609,6 @@
  POL_nationalism_party:0 "Narodowa Demokracja"
  POL_monarchism_party:0 "Interrex"
  POL_theocracy_party:0 "Archidiecezja Gnieźnieńska"
+
+ IRF_communism_party:0 "CPP"
+ IRF_communism_party_long:0 "Communist Part of Persia"

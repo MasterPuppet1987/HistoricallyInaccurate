@@ -13,4 +13,9 @@ spriteTypes = {
         name = "GFX_portrait_POL_roman_dmowski"
         texturefile = "gfx/leaders/POL/portrait_roman_dmowski.dds"
     }
+
+    spriteType = {
+        name = "GFX_portrait_IRF_mirza_kochak_khan"
+        texturefile = "gfx/leaders/IRF/portrait_mirza_kochak_khan.dds"
+    }
 }

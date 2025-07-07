@@ -1314,3 +1314,13 @@ TUR = {
 	color = rgb { 181 79 88 }
 	color_ui = rgb { 181 79 88 }
 }
+
+IRF = {
+	color = rgb { 181 21 42 }
+	color_ui = rgb { 181 21 42 }
+}
+
+ISA = {
+	color = rgb { 34 94 43 }
+	color_ui = rgb { 34 94 43 }
+}

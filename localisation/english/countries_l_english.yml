@@ -5317,3 +5317,11 @@
  POL_FRA_neutrality_subject_DEF:0 "Grand Duchy of Warsaw"
  POL_poland_ruthenia:0 "Republic of Poland-Ruthenia"
  POL_poland_ruthenia_DEF:0 "the Republic of Poland-Ruthenia"
+
+ IRF:0 "Iranian Revolutionary Front"
+ POL_DEF:0 "Iranian Revolutionary Front"
+ POL_ADJ:0 "Iranian Communist"
+
+ ISA:0 "Iranian Islamic Army"
+ ISA_DEF:0 "Iranian Islamic Army"
+ ISA_ADJ:0 "Iranian Islamist"
