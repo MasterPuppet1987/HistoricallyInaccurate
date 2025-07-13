@@ -355,18 +355,6 @@ if = {
 	}
 }
 
-
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	set_autonomy = {
-		target = COG
-		autonomous_state = autonomy_colony
-		freedom_level = 0.2
-	}
-}
-
 IF = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -433,20 +421,6 @@ set_popularities = {
 	monarchism = 2
     socialism = 54
     theocracy = 1 
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1939.4.2"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 87
-		fascism = 8
-		communism = 5
-	}
 }
 
 set_convoys = 80

@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = BEL
+		owner = FRA
+		add_core_of = FRA
 		victory_points = {
 			575 5
 		}
@@ -27,13 +28,6 @@ state={
 			air_base = 10
 			575 = {
 				naval_base = 6
-			}
-		}
-		add_core_of = BEL
-		add_core_of = FRA
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
 			}
 		}
 	}

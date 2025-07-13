@@ -10,8 +10,7 @@ state = {
 	
 	history = {
 
-		owner = BEL
-		add_core_of = GER
+		owner = HOL
 		add_core_of = RHI
 		add_core_of = PRE
 
