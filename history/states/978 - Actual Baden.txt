@@ -11,9 +11,8 @@ state = {
 
 	history = {
 
-		owner = FRA
-		add_core_of = GER
-		add_core_of = WUR
+		owner = BAD
+		add_core_of = BAD
 
 		victory_points = {
 			3530 10 #Karlsruhe
@@ -36,7 +35,7 @@ state = {
 	}
 
 	provinces = {
-		3530 3679 3692 6542 6568 6712 11640
+		3530 3679 3692 6542 6568 6581 6712 11640
 	}
 	
 	buildings_max_level_factor = 1.000

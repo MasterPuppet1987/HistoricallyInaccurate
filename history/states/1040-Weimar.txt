@@ -1,0 +1,28 @@
+state = {
+	id = 1040
+	name = "STATE_1040"
+	manpower = 551021
+	
+	state_category = town
+
+	history = {
+
+		owner = SAX
+		add_core_of = SAX
+
+		victory_points = { 
+			425 1 # Weimar
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		425 6582
+	}
+
+	local_supplies = 0.0 
+}

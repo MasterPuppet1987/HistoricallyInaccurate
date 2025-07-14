@@ -1324,3 +1324,8 @@ ISA = {
 	color = rgb { 34 94 43 }
 	color_ui = rgb { 34 94 43 }
 }
+
+BAD = {
+	color = rgb { 167 21 42 }
+	color_ui = rgb { 167 21 42 }
+}
