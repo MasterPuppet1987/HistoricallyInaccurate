@@ -32,18 +32,10 @@ state = {
 		victory_points = {
 			9471 2 # Chemnitz
 		}
-		
-		1939.1.1 = {
-			buildings = {
-				synthetic_refinery = 2
-				arms_factory = 5
-				industrial_complex = 10
-			}
-		}
 	}
 
 	provinces = {
-		514 573 3514 3535 6441 6559 9441 9471 9535 11481 11545 
+		478 514 573 3499 3514 3535 6441 6559 9428 9441 9560 9471 9535 11481 11415 11545
 	}
 
 	local_supplies = 0.0 
