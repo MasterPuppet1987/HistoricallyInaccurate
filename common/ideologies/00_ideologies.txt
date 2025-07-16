@@ -80,7 +80,7 @@ ideologies = {
 			council_communism = {
 			}
 
-			luxemburgism = {
+			spartacism = {
 			}
 
 			trotskyism = {
@@ -266,7 +266,7 @@ ideologies = {
 			falangism = {
 			}
 
-			rexism = {
+			volkism = {
 			}
 
 			esoteric_fascism = {

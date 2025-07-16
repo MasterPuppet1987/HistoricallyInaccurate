@@ -1,0 +1,28 @@
+state = {
+	id = 1043
+	name = "STATE_1043"
+	manpower = 788523
+	
+	
+	state_category = large_town
+	history = {
+
+		owner = PRE
+		add_core_of = POL
+		add_core_of = PRE
+
+		victory_points = {
+			9532 5 # Kalish
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		3460 9532 11558
+	}
+
+	local_supplies = 0.0 
+}

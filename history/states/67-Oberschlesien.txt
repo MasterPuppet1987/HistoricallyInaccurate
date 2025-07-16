@@ -11,8 +11,7 @@ state = {
 
 	history = {
 
-		owner = AUS
-		add_core_of = GER
+		owner = PRE
 		add_core_of = SIL
 		add_core_of = PRE
 

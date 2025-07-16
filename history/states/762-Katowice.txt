@@ -13,7 +13,7 @@ state = {
 
 	history = {
 		
-		owner = AUS
+		owner = PRE
 		add_core_of = POL
 		add_core_of = SIL
 		add_claim_by = PRE

@@ -1,4 +1,4 @@
-capital = 64
+capital = 1041
 
 # Starting tech
 set_technology = {
@@ -81,19 +81,22 @@ set_politics = {
 
 }
 set_popularities = {
-	anarchism = 2
-	neutrality = 7
-	communism = 22
-	democratic = 9
-	fascism = 2
+	anarchism = 3
+	neutrality = 2
+	communism = 20
+	democratic = 4
+	conservatism = 15
+	fascism = 3
+	nationalism = 7
 	libertarianism = 1
-	monarchism = 2
-    socialism = 54
-    theocracy = 1
+	monarchism = 37
+	socialism = 8
+	theocracy = 0
 }
 
 add_ideas = {
 }
 
 recruit_character = PRE_wilhelm_ii
+recruit_character = PRE_rosa_luxemburg
 

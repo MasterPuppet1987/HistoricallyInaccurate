@@ -1,0 +1,17 @@
+characters = {
+	SPK_rosa_luxemburg = {
+		name = SPK_rosa_luxemburg
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPK_rosa_luxemburg
+			}
+		}
+
+		country_leader = {
+			ideology = spartacism
+			traits = { the_soldier_king }
+			expire = "1951.8.12.1"
+		}
+	}
+}

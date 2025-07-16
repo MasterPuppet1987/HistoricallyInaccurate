@@ -1,0 +1,36 @@
+state = {
+	id = 1044
+	name = "STATE_1044"
+	manpower = 1436491
+	resources = {
+		oil = 1
+	}
+	
+	state_category = rural
+
+	history = {
+
+		owner = PRE
+		add_core_of = GER
+		add_core_of = HAN
+		add_core_of = PRE
+
+		victory_points = {
+			6298 1 # Lüneburg
+		}
+
+		victory_points = {
+			526 1 # Wolfsburg
+		}
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces = {
+		526 6218 9264 9238 9375 11468 11402 6513 6298
+	}
+
+	local_supplies = 0.0 
+}

@@ -14,6 +14,14 @@ state = {
 			6332 10 # Königsberg
 		}
 
+		victory_points = {
+			3384 1 # Gumbinnen
+		}
+
+		victory_points = {
+			348 2 # Tilsit
+		}
+
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 2
@@ -27,12 +35,6 @@ state = {
 
 			}
 			air_base = 6
-		}
-		
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
-			}
 		}
 	}
 

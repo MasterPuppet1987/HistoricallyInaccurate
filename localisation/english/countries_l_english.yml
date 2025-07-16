@@ -3202,6 +3202,8 @@
 
  SIL_communism:0 "Silesian People's Republic"
  SIL_communism_DEF:0 "the Silesian People's Republic"
+ SIL_socialism:0 "Silesian Miners' Association"
+ SIL_socialism_DEF:0 "the Silesian Miners' Association"
  SIL_fascism:0 "Silesian State"
  SIL_fascism_DEF:0 "the Silesian State"
  SIL_neutrality:0 "Duchy of Silesia"
@@ -5300,6 +5302,15 @@
  BAD_DEF:0 "Baden"
  BAD_ADJ:0 "Badenian"
 
+ SPK: "Spartakusbund"
+ SPK_DEF:0 "Spartakusbund"
+ SPK_ADJ: "Spartacist"
+ PDF: "Prussian Democratic Front"
+ TEU: "Teutonic Order"
+ TEU_DEF: "Teutonic Order"
+ TEU_ADJ: "Teuton"
+ VLK: "Volkisch League"
+ PJG: "Posen Jewish Guard"
 
  POL_anarchism:0 "Anarchist Territory Poland-Ruthenia"
  POL_anarchism_DEF:0 "the Anarchist Territory of Poland-Ruthenia"

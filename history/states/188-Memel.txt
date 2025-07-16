@@ -9,7 +9,7 @@ state = {
 
 		owner = PRE
 		add_core_of = LIT
-		add_claim_by = PRE
+		add_core_of = PRE
 
 		victory_points = {
 			3288 3 # Klaipeda/Memel

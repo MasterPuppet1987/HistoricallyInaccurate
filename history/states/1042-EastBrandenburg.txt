@@ -1,0 +1,34 @@
+state = {
+	id = 1042
+	name = "STATE_1042"
+	manpower = 1250978
+	buildings_max_level_factor = 1
+
+	state_category = town
+
+	history = {
+
+		owner = PRE
+		add_core_of = PRE
+
+		victory_points = {
+			9496 1 # Seelow
+		}
+
+		victory_points = {
+			11505 1 # Eberswalde
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces = {
+		3367 9496 11219 11444 11505 
+	}
+
+	local_supplies = 0.0 
+}
