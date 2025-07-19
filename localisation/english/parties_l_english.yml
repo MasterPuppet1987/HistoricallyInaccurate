@@ -1361,6 +1361,8 @@
  SIL_fascism_party_long: "Union of Upper Silesians"
  SIL_communism_party: "ŚPS"
  SIL_communism_party_long: "Silesian Socialist Party"
+ SIL_socialism_party: "SZG"
+ SIL_socialism_party_long: "Ślōnski Zwiōnzek Gōrnikōw"
 
  KUB_communism_party: "KPB"
  KUB_communism_party_long: "The Kuban People’s Bolshevik Union"
@@ -1552,7 +1554,7 @@
 
  PRE_anarchism_party:0 "PAB"
  PRE_anarchism_party_long:0 "Preußischer Anarchistenbund"
- PRE_neutrality_party:0 "Reichswehr"
+ PRE_neutrality_party:0 "Königlich Preußische Armee"
  PRE_communism_party:0 "KPP"
  PRE_communism_party_long:0 "Kommunistische Partei Preußens"
  PRE_democratic_party:0 "DFP"
@@ -1569,6 +1571,12 @@
  PRE_fascism_party:0 "EK (V)"
  PRE_fascism_party_long:0 "Eisernes Kreuz (Volkisch)"
  PRE_theocracy_party:0 "Deutscher Orden"
+ 
+ VLK_neutrality_party:0 "Königlich Preußische Armee"
+ VLK_nationalism_party:0 "EK"
+ VLK_nationalism_party_long:0 "Eisernes Kreuz"
+ VLK_fascism_party:0 "EK (V)"
+ VLK_fascism_party_long:0 "Eisernes Kreuz (Volkisch)"
 
  BAY_anarchism_party:0 "BAB"
  BAY_anarchism_party_long:0 "Bayerischer Arbeiterbund"

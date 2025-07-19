@@ -1,0 +1,21 @@
+prussian_civil_war_category = {
+	icon = saf_anti_colonialist_crusade
+
+	picture = GFX_decision_cat_prussian_civil_war_1
+
+	available = {
+		OR = {
+			has_idea = prussian_civil_war
+			has_idea = prussian_civil_war_spk
+		}
+	}
+
+	visible = {
+		OR = {
+			has_idea = prussian_civil_war
+			has_idea = prussian_civil_war_spk
+		}
+	}
+
+	priority = 10
+}

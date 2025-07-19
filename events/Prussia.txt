@@ -5,25 +5,58 @@
 add_namespace = prussia
 
 # Prussian Civil War
+
 country_event = {
 	id = prussia.1
-	title = "Prussian Civil War"
-	desc = prussia1.d
+	title = prussia.1.t
+	desc = prussia.1.desc
+	picture = GFX_report_event_spartakusbund
+
+	is_triggered_only = yes
+
+	option = {
+		name = prussia.1.a
+	}
+}
+
+country_event = {
+	id = prussia.2
+	title = prussia.2.t
+	desc = prussia.2.desc
 	picture = GFX_report_event_PRE_civil_war
 
 	is_triggered_only = yes
 
 	immediate = {
 		hidden_effect = {
+			SIL = {
+				add_state_core = 66
+				transfer_state = 66
+				add_state_core = 67
+				transfer_state = 67
+				add_state_core = 762
+				transfer_state = 762
+				transfer_state = 1043
+				add_ideas = prussian_civil_war
+				set_politics = {
+					ruling_party = socialism
+				}
+				declare_war_on = {
+					target = PRE
+					type = civil_war
+				}
+			}
 			SPK = {
-				add_state_core = 1041
-				transfer_state = 1041
 				add_state_core = 1042
 				transfer_state = 1042
+				add_state_core = 64
+				transfer_state = 64
 				add_state_core = 68
 				transfer_state = 68
 				add_state_core = 62
 				transfer_state = 62
+				load_oob = "Spartakusbund"
+				add_ideas = prussian_civil_war_spk
 				declare_war_on = {
 					target = PRE
 					type = civil_war
@@ -36,6 +69,7 @@ country_event = {
 				transfer_state = 59
 				add_state_core = 57
 				transfer_state = 57
+				add_ideas = prussian_civil_war
 				declare_war_on = {
 					target = PRE
 					type = civil_war
@@ -48,12 +82,9 @@ country_event = {
 				transfer_state = 188
 				add_state_core = 5
 				transfer_state = 5
+				add_ideas = prussian_civil_war
 				declare_war_on = {
 					target = PRE
-					type = civil_war
-				}
-				declare_war_on = {
-					target = SPK
 					type = civil_war
 				}
 			}
@@ -62,60 +93,119 @@ country_event = {
 				transfer_state = 85
 				add_state_core = 807
 				transfer_state = 807
-				add_state_core = 98
-				transfer_state = 98
 				add_state_core = 87
 				transfer_state = 87
+				add_state_core = 63
+				transfer_state = 63
+				add_ideas = prussian_civil_war
+				set_politics = {
+					ruling_party = neutrality
+				}
+				declare_war_on = {
+					target = SPK
+					type = civil_war
+				}
 			}
 			PJG = {
 				add_state_core = 86
 				transfer_state = 86
+				add_ideas = prussian_civil_war
 				declare_war_on = {
 					target = PRE
 					type = civil_war
 				}	
 			}
-			SIL = {
-				add_state_core = 66
-				transfer_state = 66
-				add_state_core = 67
-				transfer_state = 67
-				add_state_core = 762
-				transfer_state = 762
-				transfer_state = 1043
-				set_politics = {
-					ruling_party = socialism
+			PRE = {
+				add_ideas = prussian_civil_war
+				transfer_units_fraction = {
+					target = PDF
+					size = 0.3
 				}
-				declare_war_on = {
-					target = PRE
-					type = civil_war
+				transfer_units_fraction = {
+					target = VLK
+					size = 0.3
 				}
-			}
-			KSH = {
-				add_state_core = 63
-				transfer_state = 63
-				declare_war_on = {
-					target = PRE
-					type = civil_war
+				transfer_units_fraction = {
+					target = TEU
+					size = 0.1
 				}
 			}
 		}
 	}
 
 	option = {
-		name = "Workers of Prussia unite!"
-		change_tag_from = SPK
+		name = prussia.2.a
+		SPK = {
+			change_tag_from = PRE
+		}
 	}
 
 	option = {
-		name = "The people want democracy!"
+		name = prussia.2.b
+		PDF = {
+			change_tag_from = PRE
+		}
 	}
 
 	option = {
-		name = "We serve the Lord, not the Kaiser!"
+		name = prussia.2.c
+		VLK = {
+			change_tag_from = PRE
+		}
 	}
 
 	option = {
-		name = "It's time to restore Germanic greatness!"
+		name = prussia.2.d
+		TEU = {
+			change_tag_from = PRE
+		}
+	}
+}
+
+country_event = {
+	id = prussia.3
+
+	fire_only_once = yes
+
+	hidden = yes
+
+	trigger = {
+		tag = SPK
+		controls_province = 6521
+	}
+
+	immediate = {
+		PRE = {
+			country_event = prussia.4
+		}
+		SPK = {
+			country_event = prussia.4
+		}
+		PDF = {
+			country_event = prussia.4
+		}
+		VLK = {
+			country_event = prussia.4
+		}
+		TEU = {
+			country_event = prussia.4
+		}
+	}
+}
+
+country_event = {
+	id = prussia.4
+	title = prussia.4.t
+	desc = prussia.4.desc
+	picture = GFX_report_event_spartakusbund
+
+	fire_only_once = yes
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = prussia.4.a
 	}
 }

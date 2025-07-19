@@ -914,13 +914,12 @@ bookmarks = {
 				IRQ_decouple_from_the_pound
 			}
 		}
-		LIA = {
+		PRE = {
 			minor = yes
-			history = "LIA_GATHERING_STORM_DESC"
-			ideology = syndicalism
-			ideas {
-				LIA_lost_taiwan
-				LIA_anhui_pandemic
+			history = "PRE_GATHERING_STORM_DESC"
+			ideology = monarchism
+			ideas = {
+				PRE_nationwide_strikes
 			}
 		}
 		effect = {

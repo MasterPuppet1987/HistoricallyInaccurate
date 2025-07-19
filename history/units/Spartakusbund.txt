@@ -1,0 +1,130 @@
+division_template = {
+	name = "Rote Armee Infanterie"		
+	division_names_group = PRE_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Arbeitermiliz"		
+	division_names_group = PRE_MIL_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+
+	}
+	priority = 1
+	template_counter = 69
+}
+
+
+units = {
+	######## Red Army ########
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11444
+		division_template = "Rote Armee Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11219
+		division_template = "Rote Armee Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3207
+		division_template = "Rote Armee Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	######## Arbeitermiliz ########
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 349
+		division_template = "Arbeitermiliz"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3367
+		division_template = "Arbeitermiliz"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6239
+		division_template = "Arbeitermiliz"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11437
+		division_template = "Arbeitermiliz"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 3207
+		division_template = "Arbeitermiliz"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}

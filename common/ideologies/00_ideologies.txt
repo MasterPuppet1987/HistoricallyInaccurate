@@ -274,6 +274,12 @@ ideologies = {
 
 			strasserism = {
 			}
+
+			slavic_fascism = {
+			}
+
+			aztecism = {
+			}
 		}
 
 		dynamic_faction_names = {

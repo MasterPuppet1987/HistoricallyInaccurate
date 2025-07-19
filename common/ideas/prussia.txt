@@ -1,0 +1,51 @@
+ideas = {
+    country = {
+        prussian_civil_war = {
+
+			picture = cze_german_puppet
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+                army_attack_factor = -0.25
+                army_defence_factor = -0.1
+			}
+
+            rule = {
+                can_join_factions = no
+            }
+		}
+
+        prussian_civil_war_spk = {
+
+			picture = cze_german_puppet
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+                army_attack_factor = -0.05
+                army_defence_factor = -0.05
+			}
+
+            rule = {
+                can_join_factions = no
+            }
+		}
+
+        PRE_nationwide_strikes = {
+
+			picture = cze_german_puppet
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.4
+                political_power_gain = -0.2
+				industrial_capacity_factory = -0.5
+				industrial_capacity_dockyard = -0.5
+			}
+		}
+    }
+}

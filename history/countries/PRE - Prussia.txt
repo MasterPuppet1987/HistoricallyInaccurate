@@ -1,4 +1,5 @@
 capital = 1041
+oob = "PRE_1930"
 
 # Starting tech
 set_technology = {
