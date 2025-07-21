@@ -280,6 +280,9 @@ ideologies = {
 
 			aztecism = {
 			}
+
+			national_radicalism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -597,6 +600,9 @@ ideologies = {
 
 			bonapartism = {
 			}
+
+			monarcho_socialism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -653,6 +659,9 @@ ideologies = {
 			}
 
 			warlordism = {
+			}
+
+			military_order = {
 			}
 
 		}

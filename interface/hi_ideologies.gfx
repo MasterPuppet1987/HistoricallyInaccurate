@@ -15,6 +15,26 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = GFX_ideology_vanguardism
+        textureFile = gfx/interface/ideologies/vanguardism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_yatagarasism
+        textureFile = gfx/interface/ideologies/yatagarasism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_maoism
+        textureFile = gfx/interface/ideologies/maoism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_council_communism
+        textureFile = gfx/interface/ideologies/council_communism.dds
+    }
+
+    spriteType = {
         name = GFX_ideology_syndicalism
         textureFile = gfx/interface/ideologies/syndicalism.dds
     }
@@ -30,6 +50,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = GFX_ideology_anti_authoritarianism
+        textureFile = gfx/interface/ideologies/anti_authoritarianism.dds
+    }
+
+    spriteType = {
         name = GFX_ideology_social_democracy
         textureFile = gfx/interface/ideologies/social_democracy.dds
     }
@@ -40,7 +65,37 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = GFX_ideology_volkism
+        textureFile = gfx/interface/ideologies/volkism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_aztecism
+        textureFile = gfx/interface/ideologies/aztec_fascism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_national_radicalism
+        textureFile = gfx/interface/ideologies/national_radicalism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_anarcho_capitalism
+        textureFile = gfx/interface/ideologies/anarcho_capitalism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_monarcho_socialism
+        textureFile = gfx/interface/ideologies/monarcho_socialism.dds
+    }
+
+    spriteType = {
         name = GFX_ideology_warlordism
         textureFile = gfx/interface/ideologies/warlordism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_military_order
+        textureFile = gfx/interface/ideologies/military_order.dds
     }
 }
