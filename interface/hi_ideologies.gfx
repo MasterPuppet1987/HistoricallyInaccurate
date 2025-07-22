@@ -15,6 +15,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = GFX_ideology_jewish_anarchism
+        textureFile = gfx/interface/ideologies/jewish_anarchism.dds  
+    }
+
+    spriteType = {
         name = GFX_ideology_vanguardism
         textureFile = gfx/interface/ideologies/vanguardism.dds
     }
@@ -52,6 +57,11 @@ spriteTypes = {
     spriteType = {
         name = GFX_ideology_anti_authoritarianism
         textureFile = gfx/interface/ideologies/anti_authoritarianism.dds
+    }
+
+    spriteType = {
+        name = GFX_ideology_zionism
+        textureFile = gfx/interface/ideologies/zionism.dds
     }
 
     spriteType = {

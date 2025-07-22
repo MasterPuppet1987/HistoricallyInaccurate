@@ -13,7 +13,9 @@ ideologies = {
 			mutualism = {
 			}
 
-			
+			jewish_anarchism = {
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -72,6 +74,7 @@ ideologies = {
 			}
 
 			yatagarasism = {
+				can_be_randomly_selected = no
 			}
 
 			maoism = {
@@ -80,7 +83,11 @@ ideologies = {
 			council_communism = {
 			}
 
-			spartacism = {
+			muntzerbundism = {
+				can_be_randomly_selected = no
+			}
+
+			christian_communism = {
 			}
 
 			trotskyism = {
@@ -148,9 +155,6 @@ ideologies = {
 			christian_socialism = {
 			}
 
-			labor_zionism = {
-			}
-
 		}
 
 		dynamic_faction_names = {
@@ -199,6 +203,14 @@ ideologies = {
 			}
 
 			anti_authoritarianism = {
+				can_be_randomly_selected = no
+			}
+
+			freudianism = {
+			}
+
+			labor_zionism = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -267,6 +279,7 @@ ideologies = {
 			}
 
 			volkism = {
+				can_be_randomly_selected = no
 			}
 
 			esoteric_fascism = {
@@ -279,9 +292,11 @@ ideologies = {
 			}
 
 			aztecism = {
+				can_be_randomly_selected = no
 			}
 
 			national_radicalism = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -330,6 +345,7 @@ ideologies = {
 			}
 
 			nationalist_warlordism = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -379,6 +395,9 @@ ideologies = {
 			}
 
 			austrian_school = {
+			}
+
+			libertarian_pacifism = {
 			}
 		}
 
@@ -449,6 +468,11 @@ ideologies = {
 			}
 
 			conservative_warlordism = {
+				can_be_randomly_selected = no
+			}
+
+			zionism = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -599,9 +623,14 @@ ideologies = {
 			}
 
 			bonapartism = {
+				can_be_randomly_selected = no
 			}
 
 			monarcho_socialism = {
+			}
+
+			khanism = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -653,15 +682,18 @@ ideologies = {
 		types = {
 
 			military_junta  = {
+				can_be_randomly_selected = no
 			}
 
 			corporatism  = {
 			}
 
 			warlordism = {
+				can_be_randomly_selected = no
 			}
 
 			military_order = {
+				can_be_randomly_selected = no
 			}
 
 		}
