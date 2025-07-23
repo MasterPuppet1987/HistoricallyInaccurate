@@ -13,4 +13,19 @@ characters = {
             expire = "1951.8.12.1"
         }
     }
+
+    SIL_wojciech_korfanty = {
+        name = SIL_wojciech_korfanty
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_SIL_wojciech_korfanty
+            }
+        }
+
+        country_leader = {
+            ideology = christian_democracy
+            expire = "1951.8.12.1"
+        }
+    }  
 }
