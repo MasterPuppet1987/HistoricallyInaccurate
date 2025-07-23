@@ -1,0 +1,16 @@
+characters = {
+    SIL_jozef_biniszkiewicz = {
+        name = SIL_jozef_biniszkiewicz
+
+        portraits = {
+            civilian = {
+                large = GFX_portrait_SIL_jozef_biniszkiewicz
+            }
+        }
+
+        country_leader = {
+            ideology = syndicalism
+            expire = "1951.8.12.1"
+        }
+    }
+}
