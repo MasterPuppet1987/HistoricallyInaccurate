@@ -9,7 +9,23 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = spartacism
+			ideology = muntzerbundism
+			traits = { the_soldier_king }
+			expire = "1951.8.12.1"
+		}
+	}
+
+	SPK_vladimir_lenin = {
+		name = SPK_vladimir_lenin
+
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPK_vladimir_lenin
+			}
+		}
+
+		country_leader = {
+			ideology = muntzerbundism
 			traits = { the_soldier_king }
 			expire = "1951.8.12.1"
 		}

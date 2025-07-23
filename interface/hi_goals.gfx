@@ -9,5 +9,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_PRE_reclaim_the_holy_land.dds"
 	}
 
+    SpriteType = {
+		name = "GFX_focus_VLK_landjahr"
+		texturefile = "gfx/interface/goals/focus_VLK_landjahr.dds"
+	}
+
+    SpriteType = {
+		name = "GFX_focus_JAP_total_left_unity"
+		texturefile = "gfx/interface/goals/focus_JAP_total_left_unity.dds"
+	}
+
 	
 }

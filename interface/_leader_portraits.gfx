@@ -4,9 +4,29 @@ spriteTypes = {
         texturefile = "gfx/leaders/PRE/portrait_wilhelm_ii.dds"
     }
 
-        spriteType = {
+    spriteType = {
         name = "GFX_portrait_SPK_rosa_luxemburg"
         texturefile = "gfx/leaders/SPK/portrait_rosa_luxemburg.dds"
+    }
+
+    spriteType = {
+        name = "GFX_portrait_SPK_vladimir_lenin"
+        texturefile = "gfx/leaders/SPK/portrait_vladimir_lenin.dds"
+    }
+
+    spriteType = {
+        name = "GFX_portrait_SIL_jozef_biniszkiewicz"
+        texturefile = "gfx/leaders/SIL/portrait_jozef_biniszkiewicz.dds"
+    }
+
+    spriteType = {
+        name = "GFX_portrait_SIL_wojciech_korfanty"
+        texturefile = "gfx/leaders/SIL/portrait_wojciech_korfanty.dds"
+    }
+
+    spriteType = {
+        name = "GFX_portrait_AUS_sigmund_freud"
+        texturefile = "gfx/leaders/AUS/portrait_sigmund_freud.dds"
     }
 
     spriteType = {

@@ -35,7 +35,7 @@ focus_tree = {
         id = PRE_suppress_the_workers
         icon = GFX_SOV_bringing_breakaways_back_to_the_fold_ccp_2d_sov_compatibility
         x = -4
-        y = 1
+        y = 2
         cost = 1
         mutually_exclusive = { focus = PRE_begin_laborification }
         completion_reward = {
@@ -46,9 +46,9 @@ focus_tree = {
 
     focus = {
         id = PRE_down_with_the_regime
-        icon = GFX_surrender_tiny_flag
+        icon = GFX_focus_VLK_landjahr
         x = 0
-        y = 1
+        y = 2
         relative_position_id = PRE_suppress_the_workers
         prerequisite = { focus = PRE_suppress_the_workers }
         cost = 1

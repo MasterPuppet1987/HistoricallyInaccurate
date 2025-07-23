@@ -1,6 +1,7 @@
 prussian_civil_war_category = {
 	pcw_search_warehouses = {
 		cost = 10
+		icon = GFX_surrender_tiny_flag
 		days_remove = 15
 		days_re_enable = 40
 		remove_effect = {
@@ -19,12 +20,13 @@ prussian_civil_war_category = {
 
 	pcw_assemble_makeshift_artillery = {
 		cost = 20
+		icon = GFX_surrender_tiny_flag
 		days_remove = 15
 		days_re_enable = 40
 		remove_effect = {
 			add_equipment_to_stockpile = {
 				type = artillery_equipment
-				amount = 15
+				amount = 20
 			}
 		}
 	}

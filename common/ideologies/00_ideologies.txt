@@ -87,6 +87,10 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 
+			left_volkism = {
+				can_be_randomly_selected = no
+			}
+
 			christian_communism = {
 			}
 

@@ -55,13 +55,13 @@ country_event = {
 				transfer_state = 68
 				add_state_core = 62
 				transfer_state = 62
-				load_oob = "Spartakusbund"
+				load_oob = "Muntzerbund"
 				add_ideas = prussian_civil_war_spk
 				declare_war_on = {
 					target = PRE
 					type = civil_war
 				}
-				create_faction = Spartakusbund
+				create_faction = Muntzerbund
 				add_to_faction = SIL
 			}
 			PDF = {
@@ -197,7 +197,7 @@ country_event = {
 	id = prussia.4
 	title = prussia.4.t
 	desc = prussia.4.desc
-	picture = GFX_report_event_spartakusbund
+	picture = GFX_report_event_muntzerbund
 
 	fire_only_once = yes
 

@@ -5302,9 +5302,9 @@
  BAD_DEF:0 "Baden"
  BAD_ADJ:0 "Badenian"
 
- SPK: "Spartakusbund"
- SPK_DEF:0 "Spartakusbund"
- SPK_ADJ: "Spartacist"
+ SPK: "Müntzerbund"
+ SPK_DEF:0 "Müntzerbund"
+ SPK_ADJ: "Müntzerist"
  PDF: "Prussian Democratic Front"
  TEU: "East Prussia"
  TEU_DEF: "the East Prussia"

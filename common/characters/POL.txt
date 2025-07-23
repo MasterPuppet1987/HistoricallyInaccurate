@@ -35,5 +35,4 @@ characters = {
 			expire = "1939.1.2.1"
 		}
 	}
-
 }

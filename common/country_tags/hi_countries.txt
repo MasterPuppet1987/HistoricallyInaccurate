@@ -43,7 +43,7 @@ TUR = "countries/Turkia.txt"
 IRF = "countries/IranianRevolutionaryFront.txt"
 ISA = "countries/IranianIslamicArmy.txt"
 
-SPK = "countries/Spartakusbund.txt"
+SPK = "countries/Muntzerbund.txt"
 PDF = "countries/PrussianDemocraticFront.txt"
 TEU = "countries/TeutonicOrder.txt"
 VLK = "countries/VolkistLeague.txt"
