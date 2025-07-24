@@ -10,4 +10,16 @@ leader_traits = {
 		consumer_goods_factor = 0.05
 		stability_factor = 0.05
 	}
+	institutional_anticlericalism = {
+		sprite = 1
+		theocracy_drift = -0.05
+		stability_factor = -0.10
+	}
+	peoples_dictator = {
+		sprite = 1
+		stability_factor = 0.05
+		communism_drift = -0.01
+		anarchism_drift = -0.01
+		democratic_drift = 0.02
+	}
 }
