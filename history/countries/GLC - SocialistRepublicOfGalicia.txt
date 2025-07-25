@@ -1,0 +1,32 @@
+capital = 171
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 30
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1930.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	anarchism = 0
+	neutrality = 0
+	communism = 74
+	democratic = 20
+	fascism = 0
+	libertarianism = 0
+	monarchism = 6
+    socialism = 0
+    theocracy = 0
+}
+recruit_character = GLC_enrique_lister
+add_ideas = {
+	struggle_for_iberia
+	iberian_irredentism
+	peoples_army_of_galicia
+}

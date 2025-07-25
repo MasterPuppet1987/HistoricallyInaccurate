@@ -7,7 +7,7 @@ CHH = "countries/Chahar.txt"
 CLA = "countries/CelticAmerica.txt"
 FRD = "countries/FreeDalia.txt"
 GAR = "countries/Guarani.txt"
-GIR = "countries/IberianRealm.txt"
+GIR = "countries/IberianRealm.txt" #IBE is used as a TAG for common things of the nations of iberia
 HNN = "countries/Hunan.txt"
 INC = "countries/Inca.txt"
 INU = "countries/Inuit.txt"
@@ -48,3 +48,4 @@ PDF = "countries/PrussianDemocraticFront.txt"
 TEU = "countries/TeutonicOrder.txt"
 VLK = "countries/VolkistLeague.txt"
 PJG = "countries/PosenJewishGuard.txt"
+
