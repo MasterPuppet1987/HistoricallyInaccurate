@@ -9,8 +9,8 @@ ideas = {
 				surrender_limit = 0.5
                 war_support_factor = 0.15
                 stability_factor = -0.05
-				conscription_factor = 1
-				nationalism_drift = 2
+				conscription = 0.01 
+				nationalism_drift = 0.05
 			}
 
             rule = {

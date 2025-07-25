@@ -57,8 +57,8 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 97 62 22 }
-	color_ui = rgb { 255 255 122 }
+	color = rgb { 255 255 115 }
+	color_ui = rgb { 255 255 115 }
 }
 ITA = {
 	color = rgb { 67 127 63 }
@@ -1155,8 +1155,8 @@ CEL = {
 }
 
 GIR = {
-    color = rgb { 26 2 10 }
-	color_ui = rgb { 26 2 10 }
+    color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 
 
@@ -1353,4 +1353,8 @@ VLK = {
 PJG = {
 	color = rgb { 88 108 158 }
 	color_ui = rgb { 88 108 158 }
+}
+GLC = {
+	color = rgb { 194 251 255 }
+	color_ui = rgb { 194 251 255 }
 }

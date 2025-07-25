@@ -19,7 +19,7 @@ leader_traits = {
 		sprite = 1
 		stability_factor = 0.05
 		communism_drift = -0.01
-		anarchism_drift = -0.01
+		socialism_drift = -0.01
 		democratic_drift = 0.02
 	}
 }
