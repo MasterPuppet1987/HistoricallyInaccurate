@@ -81,6 +81,7 @@ ideologies = {
 			}
 
 			council_communism = {
+				can_be_randomly_selected = no
 			}
 
 			muntzerbundism = {

@@ -1,0 +1,20 @@
+characters = {
+	GLC_enrique_lister = {
+		name = GLC_enrique_lister
+		
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GLC_enrique_lister #Must be changed later, he's too old in the photo, he should be 23 years old.
+			}
+		}
+
+		country_leader = {
+			ideology = council_communism
+			traits = {
+				peoples_dictator institutional_anticlericalism
+			}
+			expire = "1951.8.12.1"
+			desc = GLC_enrique_lister_desc
+		}
+	}
+}

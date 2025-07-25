@@ -43,4 +43,8 @@ spriteTypes = {
         name = "GFX_portrait_IRF_mirza_kochak_khan"
         texturefile = "gfx/leaders/IRF/portrait_mirza_kochak_khan.dds"
     }
+    spriteType = {
+        name = "GFX_portrait_GLC_enrique_lister"
+        texturefile = "gfx/leaders/GLC/portrait_enrique_lister.tga"
+    }
 }
