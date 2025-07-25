@@ -1,5 +1,4 @@
-capital = 1041
-oob = "PRE_1930"
+capital = 66
 
 # Starting tech
 set_technology = {
@@ -75,30 +74,29 @@ set_convoys = 50
 set_stability = 0.75
 
 set_politics = {
-	ruling_party = monarchism
-	last_election = "1888.6.15"
+	ruling_party = socialism
+	last_election = "1930.1.1"
 	election_frequency = 48
 	elections_allowed = no
 
 }
 set_popularities = {
-	anarchism = 3
-	neutrality = 2
-	communism = 20
-	democratic = 4
-	conservatism = 15
-	fascism = 3
-	nationalism = 7
-	libertarianism = 1
-	monarchism = 37
-	socialism = 8
+	anarchism = 0
+	neutrality = 0
+	communism = 16
+	democratic = 9
+	conservatism = 28
+	fascism = 0
+	nationalism = 4
+	libertarianism = 3
+	monarchism = 0
+	socialism = 39
 	theocracy = 0
 }
 
 add_ideas = {
-	PRE_working_class_unrest_high
 }
 
-recruit_character = PRE_wilhelm_ii
-recruit_character = PRE_rosa_luxemburg
+recruit_character = SIL_wojciech_korfanty
+recruit_character = SIL_jozef_biniszkiewicz
 

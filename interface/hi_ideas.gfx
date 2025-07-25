@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_idea_PRE_working_class_unrest
+		textureFile = gfx/interface/ideas/PRE_working_class_unrest.dds
+	}
+
+	spriteType = {
+		name = GFX_idea_PRE_public_works
+		textureFile = gfx/interface/ideas/PRE_public_works.dds
+	}
+}

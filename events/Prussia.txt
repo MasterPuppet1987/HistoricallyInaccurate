@@ -38,9 +38,6 @@ country_event = {
 				transfer_state = 762
 				transfer_state = 1043
 				add_ideas = prussian_civil_war
-				set_politics = {
-					ruling_party = socialism
-				}
 				declare_war_on = {
 					target = PRE
 					type = civil_war

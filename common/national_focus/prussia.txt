@@ -23,7 +23,7 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1750 }
 
 	initial_show_position = {
-	    focus = IRQ_rally_behind_the_hashemite_dynasty
+	    focus = PRE_public_works_program
 	}
 
 
@@ -32,11 +32,45 @@ focus_tree = {
     ### MAIN ###
 
     focus = {
+        id = PRE_public_works_program
+        icon = GFX_focus_PRE_public_works_program
+        x = 6
+        y = 2
+        cost = 4
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = PRE_working_class_unrest_high
+                add_idea = PRE_working_class_unrest_moderate
+            }
+            add_timed_idea = {
+                idea = PRE_public_works
+                days = 180
+            }
+            add_political_power = -10
+        }
+    }
+
+    focus = {
+        id = PRE_increase_welfare_spending
+        icon = GFX_focus_PRE_increase_welfare_spending
+        x = 0
+        y = 2
+        relative_position_id = PRE_public_works_program
+        prerequisite = { focus = PRE_public_works_program }
+        cost = 4
+        completion_reward = {
+            # Set welfare policy TBA
+        }
+    }
+
+    focus = {
         id = PRE_suppress_the_workers
         icon = GFX_SOV_bringing_breakaways_back_to_the_fold_ccp_2d_sov_compatibility
-        x = -4
+        x = -2
         y = 2
-        cost = 1
+        relative_position_id = PRE_increase_welfare_spending
+        cost = 2
+        prerequisite = { focus = PRE_increase_welfare_spending }
         mutually_exclusive = { focus = PRE_begin_laborification }
         completion_reward = {
             add_political_power = -50
@@ -51,9 +85,7 @@ focus_tree = {
         y = 2
         relative_position_id = PRE_suppress_the_workers
         prerequisite = { focus = PRE_suppress_the_workers }
-        cost = 1
-        cancel_if_invalid = no
-        cancelable = no
+        cost = 2
         completion_reward = {
             country_event = {
                 id = prussia.2
@@ -64,13 +96,12 @@ focus_tree = {
 
     focus = {
         id = PRE_begin_laborification
-        icon = GFX_SOV_bringing_breakaways_back_to_the_fold_ccp_2d_sov_compatibility
-        x = 4
-        y = 0
-        relative_position_id = PRE_suppress_the_workers
+        icon = GFX_focus_PRE_begin_laborification
+        x = 2
+        y = 2
+        relative_position_id = PRE_increase_welfare_spending
+        prerequisite = { focus = PRE_increase_welfare_spending }
         cost = 2
-        cancel_if_invalid = no
-        cancelable = no
         mutually_exclusive = { focus = PRE_suppress_the_workers }
         completion_reward = {
             add_political_power = 15

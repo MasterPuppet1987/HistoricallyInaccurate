@@ -1,11 +1,39 @@
 ideas = {
     country = {
-        prussian_civil_war = {
-
-			picture = cze_german_puppet
-			
+        PRE_working_class_unrest_high = {
+			picture = GFX_idea_PRE_working_class_unrest
 			removal_cost = -1
+			modifier = {
+				stability_factor = -0.4
+                political_power_gain = -0.2
+				industrial_capacity_factory = -0.5
+				industrial_capacity_dockyard = -0.5
+			}
+		}
 
+        PRE_working_class_unrest_moderate = {
+			picture = GFX_idea_PRE_working_class_unrest
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.3
+                political_power_gain = -0.2
+				industrial_capacity_factory = -0.4
+				industrial_capacity_dockyard = -0.4
+			}
+		}
+
+		PRE_public_works = {
+			picture = GFX_idea_PRE_public_works
+			removal_cost = -1
+			modifier = {
+				cic_construction_boost = 0.1
+				stability_factor = 0.025
+			}
+		}
+
+        prussian_civil_war = {
+			picture = cze_german_puppet
+			removal_cost = -1
 			modifier = {
 				stability_factor = -0.1
                 army_attack_factor = -0.25
@@ -18,11 +46,8 @@ ideas = {
 		}
 
         prussian_civil_war_spk = {
-
 			picture = cze_german_puppet
-			
 			removal_cost = -1
-
 			modifier = {
 				stability_factor = -0.05
                 army_attack_factor = -0.05
@@ -32,20 +57,6 @@ ideas = {
             rule = {
                 can_join_factions = no
             }
-		}
-
-        PRE_nationwide_strikes = {
-
-			picture = cze_german_puppet
-			
-			removal_cost = -1
-
-			modifier = {
-				stability_factor = -0.4
-                political_power_gain = -0.2
-				industrial_capacity_factory = -0.5
-				industrial_capacity_dockyard = -0.5
-			}
 		}
     }
 }

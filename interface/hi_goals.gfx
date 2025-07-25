@@ -1,12 +1,27 @@
 spriteTypes = {
-	SpriteType = {
-		name = "GFX_focus_PRE_the_future_of_our_fatherland"
-		texturefile = "gfx/interface/goals/focus_PRE_the_future_of_our_fatherland.dds"
+    SpriteType = {
+		name = "GFX_focus_PRE_public_works_program"
+		texturefile = "gfx/interface/goals/focus_PRE_public_works_program.dds"
 	}
 
     SpriteType = {
-		name = "GFX_focus_PRE_reclaim_the_holy_land"
-		texturefile = "gfx/interface/goals/focus_PRE_reclaim_the_holy_land.dds"
+		name = "GFX_focus_PRE_increase_welfare_spending"
+		texturefile = "gfx/interface/goals/focus_PRE_increase_welfare_spending.dds"
+	}
+	
+    SpriteType = {
+		name = "GFX_focus_PRE_suppress_the_workers"
+		texturefile = "gfx/interface/goals/focus_PRE_suppress_the_workers.dds"
+	}
+
+    SpriteType = {
+		name = "GFX_focus_PRE_down_with_the_regime"
+		texturefile = "gfx/interface/goals/focus_PRE_down_with_the_regime.dds"
+	}
+
+    SpriteType = {
+		name = "GFX_focus_PRE_begin_laborification"
+		texturefile = "gfx/interface/goals/focus_PRE_begin_laborification.dds"
 	}
 
     SpriteType = {
@@ -18,6 +33,4 @@ spriteTypes = {
 		name = "GFX_focus_JAP_total_left_unity"
 		texturefile = "gfx/interface/goals/focus_JAP_total_left_unity.dds"
 	}
-
-	
 }
